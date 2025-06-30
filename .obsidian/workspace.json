@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5bff8a85de821fe4",
+        "id": "e147ce2cb9980aff",
         "type": "tabs",
         "children": [
           {
-            "id": "877acf84ac0df44a",
+            "id": "5ca3ec2d79338706",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "プロンプト.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "プロンプト"
             }
           }
         ]
@@ -184,15 +188,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "877acf84ac0df44a",
+  "active": "5ca3ec2d79338706",
   "lastOpenFiles": [
+    "AI情報.md",
+    "アイデア.md",
+    "コミュニケーション開発.md",
+    "conflict-files-obsidian-git.md",
+    "ゴミ.md",
     "ljkf;sdl;kf;a.md",
     "jsflaskjdflas.md",
     "UIUXデザイナー.md",
-    "アイデア.md",
     "デザイン統合.md",
     "プロンプト.md",
-    "コミュニケーション開発.md",
     "appleデザイン.md",
     "obsidian_memo/プロンプト.md",
     "obsidian_memo/デザイン統合.md",
