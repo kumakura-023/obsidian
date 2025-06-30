@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "アイデア.md",
+                "file": "AI情報.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "アイデア"
+              "title": "AI情報"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "アイデア.md",
+            "file": "AI情報.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "アイデア.md",
+            "file": "AI情報.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "アイデア.md",
+            "file": "AI情報.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -166,6 +166,7 @@
   },
   "active": "11be71541182ec06",
   "lastOpenFiles": [
+    "アイデア.md",
     "ゴミ.md"
   ]
 }
