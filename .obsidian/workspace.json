@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "68e49902a0ee9b3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "51d81d8e77a3a6e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40d798e40296a357",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "57280ab227bc7496",
+    "type": "split",
+    "children": [
+      {
+        "id": "496762de69b05e36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b4989763f380dd7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "6e691844ae04bfb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "076653d64f9bf815",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d17b17ded1b8c761",
+    "type": "split",
+    "children": [
+      {
+        "id": "26f5e011b1987daa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb5895f77001f775",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "コミュニケーション開発.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for コミュニケーション開発"
+            }
+          },
+          {
+            "id": "bd980ba742fb6800",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "コミュニケーション開発.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from コミュニケーション開発"
+            }
+          },
+          {
+            "id": "5df19922d6566dd0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2fd5771c227e0a13",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "アウトライン"
+            }
+          },
+          {
+            "id": "41c25b6ea5218f31",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "アクティブでなくなったプラグイン"
+            }
+          },
+          {
+            "id": "301bad32c049b553",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "6b4989763f380dd7",
+  "lastOpenFiles": [
+    "Daily",
+    "テンプレート/daily_temp.md",
+    "無題のファイル.md",
+    "テンプレート/weekly_temp.md",
+    "テンプレート",
+    "プロンプト.md",
+    "Weekly",
+    "AI情報.md",
+    "アイデア.md",
+    "コミュニケーション開発.md",
+    "conflict-files-obsidian-git.md",
+    "ゴミ.md",
+    "ljkf;sdl;kf;a.md",
+    "jsflaskjdflas.md",
+    "UIUXデザイナー.md",
+    "デザイン統合.md",
+    "appleデザイン.md",
+    "obsidian_memo/プロンプト.md",
+    "obsidian_memo/デザイン統合.md",
+    "obsidian_memo/コミュニケーション開発.md",
+    "obsidian_memo/アイデア.md",
+    "obsidian_memo/UIUXデザイナー.md",
+    "obsidian_memo/appleデザイン.md",
+    "obsidian_memo",
+    "obsidian/appleデザイン.md",
+    "obsidian/プロンプト.md",
+    "obsidian/デザイン統合.md",
+    "obsidian/コミュニケーション開発.md",
+    "obsidian/アイデア.md",
+    "obsidian",
+    "日記"
+  ]
+}

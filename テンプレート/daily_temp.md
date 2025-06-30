@@ -1,0 +1,1 @@
+ID: {{date:YYYYMMDDHHmm}} tags: #daily #{{date:YYYY/MM/DD}} --- ## {{date:YYYY-MM-DD(ddd)}}日誌 - [ ] ### memo
