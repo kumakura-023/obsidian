@@ -11,10 +11,14 @@
             "id": "877acf84ac0df44a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ljkf;sdl;kf;a.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "ljkf;sdl;kf;a"
             }
           }
         ]
@@ -177,11 +181,13 @@
   },
   "active": "6b4989763f380dd7",
   "lastOpenFiles": [
-    "プロンプト.md",
-    "デザイン統合.md",
-    "コミュニケーション開発.md",
-    "アイデア.md",
+    "jsflaskjdflas.md",
+    "ljkf;sdl;kf;a.md",
     "UIUXデザイナー.md",
+    "アイデア.md",
+    "デザイン統合.md",
+    "プロンプト.md",
+    "コミュニケーション開発.md",
     "appleデザイン.md",
     "obsidian_memo/プロンプト.md",
     "obsidian_memo/デザイン統合.md",
