@@ -11,14 +11,10 @@
             "id": "877acf84ac0df44a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ljkf;sdl;kf;a.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ljkf;sdl;kf;a"
+              "title": "新規タブ"
             }
           }
         ]
@@ -159,14 +155,23 @@
               "icon": "lucide-file",
               "title": "アクティブでなくなったプラグイン"
             }
+          },
+          {
+            "id": "301bad32c049b553",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,10 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b4989763f380dd7",
+  "active": "877acf84ac0df44a",
   "lastOpenFiles": [
-    "jsflaskjdflas.md",
     "ljkf;sdl;kf;a.md",
+    "jsflaskjdflas.md",
     "UIUXデザイナー.md",
     "アイデア.md",
     "デザイン統合.md",
