@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d72b78784128775f",
+        "id": "e2e44b9dec77fcf3",
         "type": "tabs",
         "children": [
           {
-            "id": "11be71541182ec06",
+            "id": "ccf003828160b0ef",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace-mobile.json",
-                "bFile": ".obsidian/workspace-mobile.json",
-                "aRef": ""
-              },
-              "icon": "git-pull-request",
-              "title": "Diff: workspace-mobile.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -175,7 +171,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11be71541182ec06",
+  "active": "ccf003828160b0ef",
   "lastOpenFiles": [
     "Daily/2025-07-01.md",
     "AI情報.md",
