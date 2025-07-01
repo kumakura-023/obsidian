@@ -175,6 +175,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "switcher:クイックスイッチャーを開く": false,
