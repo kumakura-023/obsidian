@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-01.md",
+                "file": "2025-07-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-01"
+              "title": "2025-07-02"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,14 +204,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2bd6af5b9a63d844",
+  "active": "301bad32c049b553",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Weekly/2025-W27.md",
     "Daily/2025-07-01.md",
+    "2025-07-02.md",
+    "テンプレート/weekly_temp.md",
+    "テンプレート/2025-W27.md",
+    "2025-W26.md",
+    "conflict-files-obsidian-git.md",
     "テンプレート/daily_temp.md",
     "Daily",
     "無題のファイル.md",
-    "テンプレート/weekly_temp.md",
     "テンプレート",
     "プロンプト.md",
     "Weekly",
@@ -233,10 +236,6 @@
     "obsidian_memo/appleデザイン.md",
     "obsidian_memo",
     "obsidian/appleデザイン.md",
-    "obsidian/プロンプト.md",
-    "obsidian/デザイン統合.md",
-    "obsidian/コミュニケーション開発.md",
-    "obsidian/アイデア.md",
     "obsidian",
     "日記"
   ]
