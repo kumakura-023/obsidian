@@ -1,5 +1,9 @@
 [
   "obsidian-git",
+<<<<<<< HEAD
   "calendar",
   "templater-obsidian"
+=======
+  "calendar"
+>>>>>>> origin/main
 ]

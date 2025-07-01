@@ -149,6 +149,16 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "9039a45c08dedb55",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
       }
     ],
     "currentTab": 3
@@ -164,8 +174,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11be71541182ec06",
+  "active": "27e9e6b33ac32e5f",
   "lastOpenFiles": [
+    "テンプレート/weekly_temp.md",
+    "テンプレート/daily_temp.md",
+    "テンプレート",
+    "/テンプレート/weekly_temp.md",
+    "/テンプレート/daily_temp.md",
+    "/テンプレート",
     "アイデア.md",
     "ゴミ.md"
   ]
