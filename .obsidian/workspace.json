@@ -11,14 +11,14 @@
             "id": "504620a31d6010dc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Daily/2025-07-02.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "2025-07-02"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Daily/2025-07-02.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "2025-07-02のアウトライン"
             }
           },
           {
@@ -191,7 +192,9 @@
   },
   "active": "504620a31d6010dc",
   "lastOpenFiles": [
+    "Daily/2025-07-02 1.md",
     "Daily/2025-07-02.md",
+    "UI・UX 1.md",
     "UI・UX.md",
     "UIUXデザイナー.md",
     "appleデザイン.md",
@@ -218,7 +221,6 @@
     "jsflaskjdflas.md",
     "デザイン統合.md",
     "obsidian_memo/プロンプト.md",
-    "obsidian_memo/デザイン統合.md",
     "obsidian_memo",
     "obsidian",
     "日記"
