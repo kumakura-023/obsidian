@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-02 (水).md",
+                "file": "e2 studio　不具合.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-02 (水)"
+              "title": "e2 studio　不具合"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "ファイルエクスプローラ"
+              "title": "Files"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2025-07-02 (水).md",
+                "file": "e2 studio　不具合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-07-02 (水)からのアウトゴーイングリンク"
+              "title": "e2 studio　不具合からのアウトゴーイングリンク"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2025-07-02 (水).md",
+                "file": "e2 studio　不具合.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-02 (水)のアウトライン"
+              "title": "e2 studio　不具合のアウトライン"
             }
           },
           {
@@ -157,8 +157,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -180,21 +180,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "graph:グラフビューを開く": false,
-      "canvas:新規キャンバスを作成": false,
-      "switcher:クイックスイッチャーを開く": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "1b8936e68b8209d9",
   "lastOpenFiles": [
-    "design_rule.md",
     "e2 studio　不具合.md",
     "Daily/2025-07-02 (水).md",
+    "design_rule.md",
     "appleデザイン.md",
     "UIUXデザイナー.md",
     "Daily/2025-07-03 (木).md",
