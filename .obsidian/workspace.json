@@ -13,72 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-01.md",
+                "file": "UI・UX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-01"
-            }
-          },
-          {
-            "id": "5c5cb0dc75394f70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UIUXデザイナー.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UIUXデザイナー"
-            }
-          },
-          {
-            "id": "0af9857111d56a91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2025-07-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-02"
-            }
-          },
-          {
-            "id": "460fe66c71725681",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "c2b9ac9098f18fc0",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "title": "UI・UX"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2025-07-02.md",
+                "file": "UI・UX.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-02のアウトライン"
+              "title": "UI・UXのアウトライン"
             }
           },
           {
@@ -247,21 +190,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "460fe66c71725681",
+  "active": "301bad32c049b553",
   "lastOpenFiles": [
-    "無題のファイル.md",
-    "UI・UX.md",
+    "UIUXデザイナー.md",
+    "appleデザイン.md",
+    "AI情報.md",
     "Daily/2025-07-02.md",
+    "UI・UX.md",
+    "Daily/2025-07-01.md",
+    "Weekly/2025-W27.md",
+    "UI・UX.md",
     "conflict-files-obsidian-git.md",
     "雑学.md",
     "ライフハック.md",
     "ディズニー経営学.md",
-    "UIUXデザイナー.md",
     "ゴミ.md",
-    "Daily/2025-07-01.md",
-    "Weekly/2025-W27.md",
-    "appleデザイン.md",
-    "AI情報.md",
     "メタバース.md",
     "アイデア.md",
     "テンプレート/daily_temp.md",
