@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "460fe66c71725681",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Daily/2025-07-02.md",
+                "bFile": "Daily/2025-07-02.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 2025-07-02"
+            }
+          },
+          {
             "id": "c2b9ac9098f18fc0",
             "type": "leaf",
             "state": {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,10 +247,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0af9857111d56a91",
+  "active": "460fe66c71725681",
   "lastOpenFiles": [
-    "UI・UX.md",
     "Daily/2025-07-02.md",
+    "conflict-files-obsidian-git.md",
+    "雑学.md",
+    "ライフハック.md",
+    "ディズニー経営学.md",
+    "UI・UX.md",
     "UIUXデザイナー.md",
     "ゴミ.md",
     "Daily/2025-07-01.md",
@@ -249,7 +267,6 @@
     "テンプレート/weekly_temp.md",
     "テンプレート/2025-W27.md",
     "2025-W26.md",
-    "conflict-files-obsidian-git.md",
     "Daily",
     "テンプレート",
     "プロンプト.md",
@@ -261,9 +278,6 @@
     "obsidian_memo/プロンプト.md",
     "obsidian_memo/デザイン統合.md",
     "obsidian_memo/コミュニケーション開発.md",
-    "obsidian_memo/アイデア.md",
-    "obsidian_memo/UIUXデザイナー.md",
-    "obsidian_memo/appleデザイン.md",
     "obsidian_memo",
     "obsidian",
     "日記"
