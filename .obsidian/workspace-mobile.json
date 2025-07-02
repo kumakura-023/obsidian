@@ -11,10 +11,14 @@
             "id": "d3d99ca818481b20",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ライフハック.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ライフハック"
             }
           }
         ]
@@ -94,6 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "ライフハック.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,6 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "ライフハック.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -125,6 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "ライフハック.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -159,6 +166,7 @@
   },
   "active": "d3d99ca818481b20",
   "lastOpenFiles": [
+    "Untitled.md",
     "雑学.md",
     "UI・UX.md",
     "Weekly/2025-W27.md",
