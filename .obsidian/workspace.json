@@ -25,46 +25,18 @@
             "id": "5c5cb0dc75394f70",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UIUXデザイナー.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UIUXデザイナー"
-            }
-          },
-          {
-            "id": "0af9857111d56a91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2025-07-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-02"
-            }
-          },
-          {
-            "id": "c2b9ac9098f18fc0",
-            "type": "leaf",
-            "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
+                "aFile": ".obsidian/graph.json",
+                "bFile": ".obsidian/graph.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "title": "Diff: graph.json"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2025-07-02.md",
+                "file": "コミュニケーション開発.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-07-02へのバックリンク"
+              "title": "Backlinks for コミュニケーション開発"
             }
           },
           {
@@ -156,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2025-07-02.md",
+                "file": "コミュニケーション開発.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-07-02からのアウトゴーイングリンク"
+              "title": "Outgoing links from コミュニケーション開発"
             }
           },
           {
@@ -185,13 +157,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2025-07-02.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-02のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -233,20 +204,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "301bad32c049b553",
+  "active": "5c5cb0dc75394f70",
   "lastOpenFiles": [
-    "UI・UX.md",
-    "Daily/2025-07-02.md",
-    "UIUXデザイナー.md",
-    "ゴミ.md",
-    "Daily/2025-07-01.md",
-    "Weekly/2025-W27.md",
-    "appleデザイン.md",
-    "AI情報.md",
     "メタバース.md",
     "アイデア.md",
+    "Daily/2025-07-01.md",
+    "ゴミ.md",
     "テンプレート/daily_temp.md",
     "テンプレート/weekly_temp.md",
+    "Daily/2025-07-02.md",
+    "Weekly/2025-W27.md",
     "テンプレート/2025-W27.md",
     "2025-W26.md",
     "conflict-files-obsidian-git.md",
@@ -254,10 +221,13 @@
     "テンプレート",
     "プロンプト.md",
     "Weekly",
+    "AI情報.md",
     "コミュニケーション開発.md",
     "ljkf;sdl;kf;a.md",
     "jsflaskjdflas.md",
+    "UIUXデザイナー.md",
     "デザイン統合.md",
+    "appleデザイン.md",
     "obsidian_memo/プロンプト.md",
     "obsidian_memo/デザイン統合.md",
     "obsidian_memo/コミュニケーション開発.md",
@@ -265,6 +235,7 @@
     "obsidian_memo/UIUXデザイナー.md",
     "obsidian_memo/appleデザイン.md",
     "obsidian_memo",
+    "obsidian/appleデザイン.md",
     "obsidian",
     "日記"
   ]
