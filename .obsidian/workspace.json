@@ -11,14 +11,14 @@
             "id": "1b8936e68b8209d9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "無題のファイル 1.canvas",
-                "bFile": "無題のファイル 1.canvas",
-                "aRef": ""
+                "file": "Daily/2025-07-02 (水).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 無題のファイル 1.canvas"
+              "icon": "lucide-file",
+              "title": "2025-07-02 (水)"
             }
           }
         ]
@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily/2025-07-02 (水).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "アウトゴーイングリンク"
+              "title": "2025-07-02 (水)からのアウトゴーイングリンク"
             }
           },
           {
@@ -141,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Daily/2025-07-02 (水).md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "2025-07-02 (水)のアウトライン"
             }
           },
           {
@@ -190,15 +192,15 @@
   },
   "active": "301bad32c049b553",
   "lastOpenFiles": [
-    "無題のファイル.md",
-    "テンプレート/weekly_temp.md",
     "Daily/2025-07-03 (木).md",
     "Daily/2025-07-02 (水).md",
+    "テンプレート/daily_temp.md",
+    "テンプレート/weekly_temp.md",
+    "Weekly/2025-W27.md",
+    "無題のファイル.md",
     "Daily/2025-07-01 (火).md",
     "無題のファイル 1.canvas",
     "無題のファイル.canvas",
-    "テンプレート/daily_temp.md",
-    "Weekly/2025-W27.md",
     "UI・UX.md",
     "Daily/2025-07-01 (火.md",
     "Daily/2025-07-01 (火）.md",
