@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI・UX.md",
+                "file": "無題のファイル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UI・UX"
+              "title": "無題のファイル"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UI・UX.md",
+                "file": "無題のファイル.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UI・UXのアウトライン"
+              "title": "無題のファイルのアウトライン"
             }
           },
           {
@@ -192,10 +192,15 @@
   },
   "active": "504620a31d6010dc",
   "lastOpenFiles": [
+    "テンプレート/メモ用テンプレート.md",
+    "無題のファイル.md",
+    "ライフハック.md",
+    "代替回答.md",
+    "アイデア.md",
+    "UI・UX.md",
     "Daily/2025-07-02.md",
     "Daily/2025-07-02 1.md",
     "UI・UX 1.md",
-    "UI・UX.md",
     "UIUXデザイナー.md",
     "appleデザイン.md",
     "AI情報.md",
@@ -203,11 +208,9 @@
     "Weekly/2025-W27.md",
     "conflict-files-obsidian-git.md",
     "雑学.md",
-    "ライフハック.md",
     "ディズニー経営学.md",
     "ゴミ.md",
     "メタバース.md",
-    "アイデア.md",
     "テンプレート/daily_temp.md",
     "テンプレート/weekly_temp.md",
     "テンプレート/2025-W27.md",
@@ -218,9 +221,6 @@
     "Weekly",
     "コミュニケーション開発.md",
     "ljkf;sdl;kf;a.md",
-    "jsflaskjdflas.md",
-    "デザイン統合.md",
-    "obsidian_memo/プロンプト.md",
     "obsidian_memo",
     "obsidian",
     "日記"
