@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-02.md",
+                "file": "UI・UX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-02"
+              "title": "UI・UX"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2025-07-02.md",
+                "file": "UI・UX.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-02のアウトライン"
+              "title": "UI・UXのアウトライン"
             }
           },
           {
@@ -192,8 +192,8 @@
   },
   "active": "504620a31d6010dc",
   "lastOpenFiles": [
-    "Daily/2025-07-02 1.md",
     "Daily/2025-07-02.md",
+    "Daily/2025-07-02 1.md",
     "UI・UX 1.md",
     "UI・UX.md",
     "UIUXデザイナー.md",
