@@ -1,5 +1,5 @@
 ---
-create_dt: <% tp.file.creation_date("YYYY-MM-DD") %>
+create_dt: 2025-07-02
 ID:
   "{ date:YYYYMMDDHHmm }": 
 tags:
