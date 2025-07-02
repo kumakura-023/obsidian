@@ -1,1 +1,39 @@
-ID: {{date:YYYYMMDDHHmm}} tags: #daily #{{date:YYYY/MM/DD}} --- ## {{date:YYYY-MM-DD(ddd)}}日誌 - [ ] ### memo
+---
+create_dt: <% tp.file.creation_date("YYYY-MM-DD") %>
+ID:
+  "{ date:YYYYMMDDHHmm }": 
+tags:
+  - 日記
+---
+
+# 📅 Daily Log
+
+## 💪 Daily Routine
+*習慣的に取り組む活動*
+
+- [ ] 筋トレ
+- [ ] プロテイン
+
+---
+
+## ✅ TODO
+*やるべきこと*
+
+```button
+name add todo
+type command
+action QuickAdd: add_todo
+customColor #4ECDC4
+```
+
+---
+
+## 📝 Notes
+*今日の気づき・学び*
+
+
+
+---
+
+## 🎯 Tomorrow's Focus
+*明日の重点項目*
