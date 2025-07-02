@@ -1,0 +1,16 @@
+/* ファイルタイトルのサイズを小さくする */
+.inline-title {
+    font-size: 1.5em !important; /* デフォルトの約半分のサイズ */
+    font-weight: 600 !important; /* 少し軽くする */
+    margin-bottom: 1em !important;
+    line-height: 1.2 !important;
+}
+
+/* さらに小さくしたい場合は以下をコメントアウト */
+/*
+.inline-title {
+    font-size: 1.2em !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.8em !important;
+}
+*/ 

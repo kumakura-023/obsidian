@@ -1,4 +1,8 @@
 {
   "cssTheme": "Origami",
-  "accentColor": "#ff9999"
+  "accentColor": "#ff9999",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "smaller-title"
+  ]
 }
