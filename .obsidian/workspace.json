@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-02.md",
+                "file": "UI・UX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-02"
+              "title": "UI・UX"
             }
           },
           {
@@ -233,10 +233,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "301bad32c049b553",
+  "active": "0af9857111d56a91",
   "lastOpenFiles": [
-    "UI・UX.md",
     "Daily/2025-07-02.md",
+    "UI・UX.md",
     "UIUXデザイナー.md",
     "ゴミ.md",
     "Daily/2025-07-01.md",
