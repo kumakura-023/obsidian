@@ -53,15 +53,14 @@
             "id": "036e951a1c25c4db",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "UI・UX.md",
-                "bFile": "UI・UX.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "UI・UX.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: UI・UX"
+              "icon": "lucide-file",
+              "title": "UI・UX"
             }
           }
         ],
@@ -219,7 +218,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27e9e6b33ac32e5f",
+  "active": "036e951a1c25c4db",
   "lastOpenFiles": [
     "UI・UX.md",
     "/UI・UX.md",
