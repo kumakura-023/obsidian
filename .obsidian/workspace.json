@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UI・UX.md",
+                "file": "Daily/2025-07-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UI・UX"
+              "title": "2025-07-02"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UI・UX.md",
+                "file": "Daily/2025-07-02.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UI・UXのアウトライン"
+              "title": "2025-07-02のアウトライン"
             }
           },
           {
@@ -190,16 +190,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "301bad32c049b553",
+  "active": "504620a31d6010dc",
   "lastOpenFiles": [
+    "Daily/2025-07-02 1.md",
+    "Daily/2025-07-02.md",
+    "UI・UX 1.md",
+    "UI・UX.md",
     "UIUXデザイナー.md",
     "appleデザイン.md",
     "AI情報.md",
-    "Daily/2025-07-02.md",
-    "UI・UX.md",
     "Daily/2025-07-01.md",
     "Weekly/2025-W27.md",
-    "UI・UX.md",
     "conflict-files-obsidian-git.md",
     "雑学.md",
     "ライフハック.md",
@@ -220,7 +221,6 @@
     "jsflaskjdflas.md",
     "デザイン統合.md",
     "obsidian_memo/プロンプト.md",
-    "obsidian_memo/デザイン統合.md",
     "obsidian_memo",
     "obsidian",
     "日記"
