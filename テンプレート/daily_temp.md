@@ -24,6 +24,13 @@ type command
 action QuickAdd: add_todo
 customColor #4ECDC4
 ```
+```button
+name Xリンク→画像
+type append template
+action X画像埋め込み
+templater true
+customColor #1DA1F2
+```
 
 ---
 
