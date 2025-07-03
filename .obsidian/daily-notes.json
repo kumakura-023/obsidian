@@ -1,5 +1,5 @@
 {
   "folder": "Daily",
   "template": "テンプレート/daily_temp",
-  "format": "YYYY-MM-DD (ddd)"
+  "format": "YYYY-MM-DD"
 }
