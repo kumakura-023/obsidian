@@ -1,16 +1,35 @@
-/* ファイルタイトルのサイズを小さくする */
-.inline-title {
+/* ファイルタイトルのサイズを小さくする - 包括的なセレクター */
+.inline-title,
+.view-header-title,
+.workspace-leaf-content[data-type="markdown"] .inline-title,
+.markdown-preview-view .inline-title,
+.markdown-source-view .inline-title {
     font-size: 1.5em !important; /* デフォルトの約半分のサイズ */
     font-weight: 600 !important; /* 少し軽くする */
     margin-bottom: 1em !important;
     line-height: 1.2 !important;
 }
 
+/* テーマのフォントを確実に継承させる */
+.inline-title,
+.view-header-title {
+    font-family: inherit !important;
+}
+
+/* より強力な指定でフォント継承を確実にする */
+body .inline-title,
+body .view-header-title {
+    font-family: var(--font-interface) !important;
+}
+
 /* さらに小さくしたい場合は以下をコメントアウト */
 /*
-.inline-title {
+.inline-title,
+.view-header-title,
+.workspace-leaf-content[data-type="markdown"] .inline-title {
     font-size: 1.2em !important;
     font-weight: 500 !important;
     margin-bottom: 0.8em !important;
+    font-family: inherit !important;
 }
 */ 
