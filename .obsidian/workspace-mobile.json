@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "b5e9b854b768360d",
+    "id": "da71c8475c470ac6",
     "type": "split",
     "children": [
       {
-        "id": "9f80d23a39037dcc",
+        "id": "856ed3949bd85059",
         "type": "tabs",
         "children": [
           {
-            "id": "0102b369fd31267f",
+            "id": "ecb64d0c88a44c20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-03 (Thu).md",
+                "file": "Daily/2025-07-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-03 (Thu)"
+              "title": "2025-07-03"
             }
           }
         ]
@@ -27,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fd13bc3c0dc6080e",
+    "id": "6b1f3c4a262a8022",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "b732c094a6a43c19",
+        "id": "f6446c5eeb0b7c62",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -44,12 +44,12 @@
         }
       },
       {
-        "id": "74760b0624e68833",
+        "id": "b48dc3f5cedbc37b",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#老化",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -61,7 +61,7 @@
         }
       },
       {
-        "id": "17e096e755c60368",
+        "id": "de072ff8c3d244c9",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -76,7 +76,7 @@
         }
       },
       {
-        "id": "9b803897a9c6b00e",
+        "id": "818fca905ae01609",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -86,19 +86,19 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
-    "id": "c6ee100484a56d96",
+    "id": "12b099c9a7fd35c8",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "b1fadd0f1b16ce23",
+        "id": "14f9ae132c185a96",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Daily/2025-07-03 (Thu).md",
+            "file": "Daily/2025-07-03.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,12 +112,12 @@
         }
       },
       {
-        "id": "fccdf63bb9ea55c8",
+        "id": "21958b915092bc49",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Daily/2025-07-03 (Thu).md",
+            "file": "Daily/2025-07-03.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -126,12 +126,12 @@
         }
       },
       {
-        "id": "e49dd2659bf598c7",
+        "id": "2b84e50213746407",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Daily/2025-07-03 (Thu).md",
+            "file": "Daily/2025-07-03.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -141,7 +141,7 @@
         }
       },
       {
-        "id": "5753c4a8e800f867",
+        "id": "1b258e080dc0526a",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -149,23 +149,12 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
-      },
-      {
-        "id": "23cec22d29c31947",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
-        }
       }
     ],
     "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -175,36 +164,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0102b369fd31267f",
+  "active": "ecb64d0c88a44c20",
   "lastOpenFiles": [
-    "Daily/2025-07-03 (Thu).md",
-    "雑学.md",
-    "AI情報.md",
-    "ディズニー経営学.md",
-    "コミュニケーション開発.md",
-    "UI・UX.md",
-    "代替回答.md",
-    "アイデア.md",
-    "makevoyage.md",
-    "デザイン統合.md",
-    "UIUXデザイナー.md",
-    "プロンプト.md",
-    "design_rule.md",
-    "Daily/2025-07-02 (水).md",
-    "Daily/2025-07-01 (火).md",
-    "Daily/2025-07-03 (木).md",
-    "Daily",
-    "ゴミ.md",
-    "appleデザイン.md",
-    "メタバース.md",
-    "Weekly/2025-W27.md",
-    "Weekly",
-    "e2 studio　不具合.md",
-    "ライフハック.md",
     "テンプレート/メモ用テンプレート.md",
+    "ディズニー経営学.md",
+    "アイデア.md",
+    "コミュニケーション開発.md",
     "テンプレート/weekly_temp.md",
+    "design_rule.md",
+    "ライフハック.md",
+    "雑学.md",
     "テンプレート/daily_temp.md",
+    "UI・UX.md",
+    "UIUXデザイナー.md",
+    "Weekly/2025-W27.md",
+    "makevoyage.md",
+    "プロンプト.md",
+    "代替回答.md",
+    "メタバース.md",
+    "e2 studio　不具合.md",
+    "Daily/2025-07-03.md",
+    "appleデザイン.md",
+    "AI情報.md",
+    "Daily/2025-07-02.md",
+    "Daily/2025-07-01.md",
+    "デザイン統合.md",
+    "ゴミ.md",
+    "Weekly",
     "テンプレート",
-    "2025-07-03.md"
+    "Daily"
   ]
 }
