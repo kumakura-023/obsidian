@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-03.md",
+                "file": "テンプレート/daily_temp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-03"
+              "title": "daily_temp"
             }
           }
         ]
@@ -149,12 +149,23 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "7806783c41772720",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
       }
     ],
     "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -166,11 +177,13 @@
   },
   "active": "ecb64d0c88a44c20",
   "lastOpenFiles": [
+    "Daily/2025-07-03.md",
+    "makevoyage.md",
+    "Pasted image 20250703154037.png",
     "/テンプレート/daily_temp.md",
     "/テンプレート/X画像埋め込み.md",
     "テンプレート/X画像埋め込み.md",
     "/テンプレート",
-    "Pasted image 20250703154037.png",
     "/UI・UX.md",
     "/Pasted image 20250703154037.png",
     "/makevoyage.md",
@@ -188,14 +201,11 @@
     "UI・UX.md",
     "UIUXデザイナー.md",
     "Weekly/2025-W27.md",
-    "makevoyage.md",
     "プロンプト.md",
     "代替回答.md",
     "メタバース.md",
     "e2 studio　不具合.md",
-    "Daily/2025-07-03.md",
     "appleデザイン.md",
-    "AI情報.md",
     "Weekly",
     "テンプレート",
     "Daily"
