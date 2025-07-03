@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "テンプレート/daily_temp.md",
+                "file": "Daily/2025-07-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily_temp"
+              "title": "2025-07-03"
             }
           },
           {
@@ -220,10 +220,12 @@
   },
   "active": "1b8936e68b8209d9",
   "lastOpenFiles": [
+    "Daily/2025-07-02.md",
+    "Daily/2025-07-03.md",
+    "テンプレート/daily_temp.md",
     "AI情報.md",
     "テンプレート/X画像埋め込み.md",
     "appleデザイン.md",
-    "Daily/2025-07-03.md",
     "UI・UX.md",
     "makevoyage.md",
     "テンプレート/weekly_temp.md",
@@ -231,10 +233,8 @@
     "Pasted image 20250703154037.png",
     "メタバース.md",
     "e2 studio　不具合.md",
-    "Daily/2025-07-02.md",
     "Daily/2025-07-01.md",
     "Daily/2025-07-03 (Thu).md",
-    "テンプレート/daily_temp.md",
     "代替回答.md",
     "ライフハック.md",
     "UIUXデザイナー.md",
