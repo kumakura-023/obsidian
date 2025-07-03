@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "テンプレート/daily_temp.md",
+                "file": "テンプレート/メモ用テンプレート.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily_temp"
+              "title": "メモ用テンプレート"
             }
           },
           {
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#2025/07/01",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -220,21 +220,21 @@
   },
   "active": "1b8936e68b8209d9",
   "lastOpenFiles": [
-    "AI情報.md",
+    "テンプレート/weekly_temp.md",
     "テンプレート/X画像埋め込み.md",
-    "appleデザイン.md",
     "Daily/2025-07-03.md",
+    "Daily/2025-07-02.md",
+    "Daily/2025-07-01.md",
+    "Weekly/2025-W27.md",
+    "テンプレート/daily_temp.md",
+    "AI情報.md",
+    "appleデザイン.md",
     "UI・UX.md",
     "makevoyage.md",
-    "テンプレート/weekly_temp.md",
-    "Weekly/2025-W27.md",
     "Pasted image 20250703154037.png",
     "メタバース.md",
     "e2 studio　不具合.md",
-    "Daily/2025-07-02.md",
-    "Daily/2025-07-01.md",
     "Daily/2025-07-03 (Thu).md",
-    "テンプレート/daily_temp.md",
     "代替回答.md",
     "ライフハック.md",
     "UIUXデザイナー.md",
