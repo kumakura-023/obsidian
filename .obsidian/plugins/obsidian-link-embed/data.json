@@ -1,5 +1,5 @@
 {
-  "popup": true,
+  "popup": false,
   "rmDismiss": false,
   "autoEmbedWhenEmpty": false,
   "primary": "local",
