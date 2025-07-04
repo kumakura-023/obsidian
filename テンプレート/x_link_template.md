@@ -1,1 +1,1 @@
-![]({{clipboard}}) 
+![]({{VALUE:URLを入力}})
