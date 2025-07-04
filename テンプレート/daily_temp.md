@@ -49,10 +49,3 @@ customColor #4ECDC4
 
 ## 🔗 気になる投稿リンク
 *XやWebなどから共有した気になる投稿を整理*
-
-```button
-name Xリンク埋め込み変換
-type prepend template
-action convert_x_links
-customColor #1DA1F2
-```
