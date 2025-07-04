@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-04.md",
+                "file": "makevoyage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-04"
+              "title": "makevoyage"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
-          "title": "Files"
+          "title": "ファイルエクスプローラ"
         }
       },
       {
@@ -165,27 +165,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
       "templater-obsidian:Templater": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5753c4a8e800f867",
+  "active": "0102b369fd31267f",
   "lastOpenFiles": [
+    "/テンプレート/daily_temp.md",
+    "/テンプレート",
+    "デザイン統合.md",
+    "Weekly/2025-W27.md",
+    "テンプレート/メモ用テンプレート.md",
+    "テンプレート/weekly_temp.md",
+    "Daily/2025-07-04.md",
     "/Daily/2025-07-04.md",
     "/Daily",
     "Daily/2025-07-03.md",
-    "/テンプレート/daily_temp.md",
-    "/テンプレート",
     "テンプレート/daily_temp.md",
-    "Daily/2025-07-04.md",
     "Daily/2025-07-01.md",
-    "Weekly/2025-W27.md",
     "AI情報.md",
     "Daily/2025-07-03 (Thu).md",
     "Daily/2025-07-02.md",
@@ -202,10 +205,6 @@
     "UI・UX.md",
     "代替回答.md",
     "アイデア.md",
-    "makevoyage.md",
-    "デザイン統合.md",
-    "UIUXデザイナー.md",
-    "プロンプト.md",
     "Daily",
     "Weekly",
     "テンプレート"

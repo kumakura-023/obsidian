@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Origami",
-  "accentColor": "#ff9999",
+  "cssTheme": "Cupertino",
+  "accentColor": "#52d6fc",
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "smaller-title"
