@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "4187397186cd2840",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "makevoyage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "makevoyage"
+            }
+          },
+          {
             "id": "ce2668b3cc82c04a",
             "type": "leaf",
             "state": {
@@ -49,7 +63,8 @@
               "title": "2025-07-03"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#2025/07/01",
+                "query": "tag:QuickMemo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +117,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,30 +234,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1b8936e68b8209d9",
+  "active": "4187397186cd2840",
   "lastOpenFiles": [
-    "Daily/2025-07-03.md",
-    "Daily/2025-07-04.md",
-    "無題のファイル 1.canvas",
-    "Daily/2025-07-01.md",
+    "テンプレート/メモ用テンプレート.md",
+    "e2 studio　不具合.md",
+    "無題のファイル.canvas",
+    "makevoyage.md",
     "テンプレート/daily_temp.md",
     "テンプレート/weekly_temp.md",
+    "テンプレート/x_link_template.md",
+    "無題のファイル.md",
+    "Daily/2025-07-04.md",
+    "Daily/2025-07-03.md",
+    "無題のファイル 1.canvas",
+    "Daily/2025-07-01.md",
     "appleデザイン.md",
     "AI情報.md",
     "Weekly/2025-W27.md",
-    "テンプレート/x_link_template.md",
-    "テンプレート/メモ用テンプレート.md",
     "Pasted image 20250704102049.png",
     "テンプレート/convert_x_links.md",
-    "無題のファイル.canvas",
     "Daily/2025-07-02.md",
-    "e2 studio　不具合.md",
     "テンプレート/X画像埋め込み.md",
     "テンプレート/convert_x_links.tpl",
     "UI・UX.md",
     "UIUXデザイナー.md",
     "conflict-files-obsidian-git.md",
-    "makevoyage.md",
     "Pasted image 20250703154037.png",
     "メタバース.md",
     "Daily/2025-07-03 (Thu).md",
@@ -249,7 +266,6 @@
     "ライフハック.md",
     "旅行計画アプリ.md",
     "design_rule.md",
-    "アイデア.md",
     "Daily",
     "テンプレート",
     "Weekly",

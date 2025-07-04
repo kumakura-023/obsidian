@@ -1,7 +1,10 @@
 ---
 creation_datetime: 2025-07-02 15:58:38
-tags: [QuickMemo, FleetingNote]
-context: 
+tags:
+  - QuickMemo
+  - FleetingNote
+  - "#開発"
+context:
 ---
 
 **2025-07-02 15:58**（ここにメモ内容を記述）
