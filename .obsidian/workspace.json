@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "makevoyage.md",
+                "file": "Daily/2025-07-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "makevoyage"
+              "title": "2025-07-04"
             }
           },
           {
@@ -117,8 +117,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -236,10 +235,10 @@
   },
   "active": "4187397186cd2840",
   "lastOpenFiles": [
+    "makevoyage.md",
     "テンプレート/メモ用テンプレート.md",
     "e2 studio　不具合.md",
     "無題のファイル.canvas",
-    "makevoyage.md",
     "テンプレート/daily_temp.md",
     "テンプレート/weekly_temp.md",
     "テンプレート/x_link_template.md",
