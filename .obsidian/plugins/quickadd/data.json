@@ -34,6 +34,42 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "76a74479-a403-45c4-9a24-7c4134cc402e",
+      "name": "x_link",
+      "type": "Capture",
+      "command": true,
+      "templatePath": "",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "captureToActiveFile": true,
+      "captureTo": "",
+      "format": {
+        "enabled": true,
+        "format": "![]({{VALUE:URLを入力}})"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "*XやWebなどから共有した気になる投稿を整理*",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],
