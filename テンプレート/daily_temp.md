@@ -49,3 +49,10 @@ customColor #4ECDC4
 
 ## 🔗 気になる投稿リンク
 *XやWebなどから共有した気になる投稿を整理*
+
+```button
+name add X link
+type command
+action QuickAdd: x_link
+customColor #1DA1F2
+```
