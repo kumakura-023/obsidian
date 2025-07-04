@@ -52,7 +52,7 @@ customColor #4ECDC4
 
 ```button
 name Xリンク埋め込み
-type prompt
-action ![]("{{VALUE}}")
+type template
+action ![]("ここにURLを貼り付け")
 customColor #1DA1F2
 ```
