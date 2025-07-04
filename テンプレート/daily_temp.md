@@ -51,8 +51,8 @@ customColor #4ECDC4
 *XやWebなどから共有した気になる投稿を整理*
 
 ```button
-name X全リンク変換
-type template prepend
-action convert_x_links
+name Xリンク埋め込み変換
+type templateFile
+action テンプレート/convert_x_links
 customColor #1DA1F2
 ```
