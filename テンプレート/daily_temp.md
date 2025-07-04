@@ -52,7 +52,7 @@ customColor #4ECDC4
 
 ```button
 name Xリンク埋め込み変換
-type templateFile
-action テンプレート/convert_x_links
+type prepend template
+action convert_x_links
 customColor #1DA1F2
 ```
