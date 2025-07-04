@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "テンプレート/daily_temp.md",
+                "file": "Daily/2025-07-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily_temp"
+              "title": "2025-07-03"
             }
           },
           {
@@ -218,14 +218,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "301bad32c049b553",
+  "active": "1b8936e68b8209d9",
   "lastOpenFiles": [
     "テンプレート/daily_temp.md",
+    "テンプレート/weekly_temp.md",
+    "テンプレート/メモ用テンプレート.md",
+    "テンプレート/X画像埋め込み.md",
     "conflict-files-obsidian-git.md",
     "UI・UX.md",
-    "テンプレート/メモ用テンプレート.md",
-    "テンプレート/weekly_temp.md",
-    "テンプレート/X画像埋め込み.md",
     "Daily/2025-07-03.md",
     "Daily/2025-07-02.md",
     "Daily/2025-07-01.md",
