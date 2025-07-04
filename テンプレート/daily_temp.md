@@ -44,3 +44,15 @@ customColor #4ECDC4
 
 ## 🎯 Tomorrow's Focus
 *明日の重点項目*
+
+---
+
+## 🔗 気になる投稿リンク
+*XやWebなどから共有した気になる投稿を整理*
+
+```button
+name Xリンク埋め込み
+type prompt
+action ![]("{{VALUE}}")
+customColor #1DA1F2
+```
