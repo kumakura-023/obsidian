@@ -39,8 +39,8 @@
       "id": "76a74479-a403-45c4-9a24-7c4134cc402e",
       "name": "x_link",
       "type": "Template",
-      "command": false,
-      "templatePath": "",
+      "command": true,
+      "templatePath": "テンプレート/x_link_template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
