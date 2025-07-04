@@ -1,1 +1,0 @@
-![]("<% await tp.system.clipboard() %>") 

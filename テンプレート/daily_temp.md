@@ -25,7 +25,6 @@ action QuickAdd: add_todo
 customColor #4ECDC4
 ```
 
-
 ---
 
 ## 📝 Notes
@@ -45,13 +44,3 @@ customColor #4ECDC4
 
 ## 🎯 Tomorrow's Focus
 *明日の重点項目*
-
----
-## 📝 from X
-```button
-name Xリンク→画像
-type append template
-action X画像埋め込み
-templater true
-customColor #1DA1F2
-```
