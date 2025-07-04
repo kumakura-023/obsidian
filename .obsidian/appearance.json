@@ -4,5 +4,6 @@
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "smaller-title"
-  ]
+  ],
+  "theme": "moonstone"
 }
