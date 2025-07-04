@@ -86,7 +86,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "e82f6254bcd978ec",
@@ -175,8 +175,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c881aace2af947be",
+  "active": "aa7e4430b1d83f95",
   "lastOpenFiles": [
+    "/Daily/2025-07-04.md",
+    "/Daily",
     "/makevoyage.md",
     "プロンプト.md",
     "e2 studio　不具合.md",
@@ -207,7 +209,6 @@
     "Weekly",
     "Daily/2025-07-03.md",
     "Daily/2025-07-02.md",
-    "Daily/2025-07-01.md",
     "Daily"
   ]
 }
