@@ -52,7 +52,7 @@ customColor #4ECDC4
 
 ```button
 name X全リンク変換
-type template
+type template prepend
 action convert_x_links
 customColor #1DA1F2
 ```
