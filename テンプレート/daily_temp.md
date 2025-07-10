@@ -1,8 +1,12 @@
 ---
-create_dt: {{DATE:YYYY-MM-DD}}
-ID: {{DATE:YYYYMMDDHHmm}}
+create_dt:
+  "{ DATE:YYYY-MM-DD }": 
+ID:
+  "{ DATE:YYYYMMDDHHmm }": 
 tags:
   - 日記
+created: 2025-06-30T17:59
+updated: 2025-07-10T14:57
 ---
 
 # 📅 Daily Log

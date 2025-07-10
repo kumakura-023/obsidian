@@ -53,28 +53,10 @@
             "id": "67b749e125cb8dd0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "メモ/appleデザイン.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "appleデザイン"
-            }
-          },
-          {
-            "id": "39a98be96cdd1851",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "思考/無題のファイル.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "無題のファイル"
+              "title": "新規タブ"
             }
           },
           {
@@ -134,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -303,10 +285,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "301bad32c049b553",
+  "active": "67b749e125cb8dd0",
   "lastOpenFiles": [
-    "テンプレート/思考用テンプレート.md",
     "思考/無題のファイル.md",
+    "思考",
+    "Daily/2025-06-30.md",
+    "テンプレート/思考用テンプレート.md",
+    "メモ/appleデザイン.md",
+    "メモ/無題のファイル 1.md",
     "テンプレート/メモ用テンプレート.md",
     "メモ/無題のファイル.md",
     "メモ/無題のファイル 2.md",
@@ -321,21 +307,16 @@
     "メモ/デザイン統合.md",
     "メモ/UI・UX.md",
     "メモ/Pasted image 20250704102049.png",
-    "メモ/無題のファイル 1.md",
     "テンプレート/x_link_template.md",
     "メモ/UIUXデザイナー.md",
     "思考/無題のフォルダ",
     "Daily/2025-07-11.md",
     "メモ/無題のファイル 3.md",
-    "Daily/2025-06-30.md",
     "Weekly/2025-W28.md",
     "テンプレート/weekly_temp.md",
     "テンプレート/daily_temp.md",
-    "Daily/2025-07-10.md",
-    "Daily/2025-07-09.md",
     "論文",
     "メモ",
-    "思考",
     "投資",
     "無題のファイル.canvas",
     "無題のファイル 1.canvas",
