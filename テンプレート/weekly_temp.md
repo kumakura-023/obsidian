@@ -1,6 +1,6 @@
 ---
-create_dt: {{date:YYYY-MM-DD}}
-ID: {{date:YYYYMMDDHHmm}}
+create_dt: {{DATE:YYYY-MM-DD}}
+ID: {{DATE:YYYYMMDDHHmm}}
 start_date: 2025-06-30
 end_date: 2025-07-06
 week_of: 2025-W27

@@ -1,6 +1,6 @@
 ---
-create_dt: {{date:YYYY-MM-DD}}
-ID: {{date:YYYYMMDDHHmm}}
+create_dt: {{DATE:YYYY-MM-DD}}
+ID: {{DATE:YYYYMMDDHHmm}}
 tags:
   - 日記
 ---
