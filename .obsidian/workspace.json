@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-09.md",
+                "file": "Daily/2025-07-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-09"
+              "title": "2025-07-10"
             }
           },
           {
@@ -257,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -275,11 +275,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "301bad32c049b553",
+  "active": "b6c7b06153fb9a99",
   "lastOpenFiles": [
+    "Daily/2025-07-09.md",
+    "Daily/2025-07-10.md",
     "論文まとめ.md",
     "UI・UX.md",
-    "Daily/2025-07-09.md",
     "Daily/2025-07-08.md",
     "Daily/2025-07-02.md",
     "Daily/2025-07-03.md",
@@ -307,7 +308,6 @@
     "テンプレート/convert_x_links.md",
     "テンプレート/X画像埋め込み.md",
     "テンプレート/convert_x_links.tpl",
-    "UIUXデザイナー.md",
     "Pasted image 20250703154037.png",
     "Daily",
     "テンプレート",
