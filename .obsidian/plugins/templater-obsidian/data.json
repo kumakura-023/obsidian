@@ -15,8 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "/",
+      "folder": "メモ",
       "template": "テンプレート/メモ用テンプレート.md"
+    },
+    {
+      "folder": "思考",
+      "template": "テンプレート/思考用テンプレート.md"
     }
   ],
   "enable_file_templates": false,

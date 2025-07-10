@@ -1,0 +1,15 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "updated",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "テンプレート/メモ用テンプレート.md": "118722f85f47130caef0d65407ae63d10271ca5d8b015c6b290e94732ec8fc87",
+    "テンプレート/思考用テンプレート.md": "1fc82429e8c7623e20193a464d2d961cfb3c03463a2a66285a242253000dca52",
+    "思考/無題のファイル.md": "ee57f74d57b273d36587eda1784d074487fc13644c8cd0f738d117dea0b58a53"
+  }
+}
