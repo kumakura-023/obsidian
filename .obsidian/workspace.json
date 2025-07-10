@@ -41,12 +41,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-10.md",
+                "file": "テンプレート/メモ用テンプレート.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-10"
+              "title": "メモ用テンプレート"
+            }
+          },
+          {
+            "id": "67b749e125cb8dd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "メモ/appleデザイン.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "appleデザイン"
+            }
+          },
+          {
+            "id": "39a98be96cdd1851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "論文/論文まとめ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "論文まとめ"
+            }
+          },
+          {
+            "id": "1a97e4ec4a237ffe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "テンプレート/daily_temp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "daily_temp"
             }
           },
           {
@@ -106,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -138,7 +180,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:QuickMemo",
+                "query": "tag:# ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -275,45 +317,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b6c7b06153fb9a99",
+  "active": "1a97e4ec4a237ffe",
   "lastOpenFiles": [
-    "Daily/2025-07-09.md",
+    "テンプレート/メモ用テンプレート.md",
+    "論文/論文まとめ.md",
+    "投資/投資関係.md",
+    "論文/無題のファイル.md",
+    "無題のファイル.md",
+    "論文",
+    "メモ/appleデザイン.md",
+    "メモ",
+    "思考/無題のファイル.md",
+    "テンプレート/x_link_template.md",
+    "メモ/AI情報.md",
+    "思考",
+    "Daily/2025-07-01.md",
+    "Daily/2025-07-03.md",
+    "メモ/design_rule.md",
+    "メモ/ライフハック.md",
     "Daily/2025-07-10.md",
-    "論文まとめ.md",
-    "UI・UX.md",
+    "Daily/2025-07-09.md",
+    "メモ/UI・UX.md",
     "Daily/2025-07-08.md",
     "Daily/2025-07-02.md",
-    "Daily/2025-07-03.md",
     "Daily/2025-07-04.md",
     "Daily/2025-07-05.md",
     "Daily/2025-07-07.md",
-    "報告書.md",
-    "無題のファイル.md",
-    "投資/無題のファイル 1.md",
+    "メモ/報告書.md",
+    "メモ/無題のファイル.md",
     "投資",
-    "mRNAワクチンとは.md",
+    "メモ/mRNAワクチンとは.md",
     "テンプレート/daily_temp.md",
-    "makevoyage.md",
-    "テンプレート/メモ用テンプレート.md",
-    "e2 studio　不具合.md",
+    "メモ/makevoyage.md",
     "無題のファイル.canvas",
-    "テンプレート/weekly_temp.md",
-    "テンプレート/x_link_template.md",
     "無題のファイル 1.canvas",
-    "Daily/2025-07-01.md",
-    "appleデザイン.md",
-    "AI情報.md",
-    "Weekly/2025-W27.md",
-    "Pasted image 20250704102049.png",
-    "テンプレート/convert_x_links.md",
-    "テンプレート/X画像埋め込み.md",
+    "メモ/Pasted image 20250704102049.png",
     "テンプレート/convert_x_links.tpl",
     "Pasted image 20250703154037.png",
     "Daily",
     "テンプレート",
     "Weekly",
     "obsidian_memo",
-    "obsidian",
-    "日記"
+    "obsidian"
   ]
 }

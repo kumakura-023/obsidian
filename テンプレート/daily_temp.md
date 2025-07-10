@@ -1,5 +1,5 @@
 ---
-create_dt: 2025-07-02
+create_dt: {date:YYYY/MM/DD/HH/mm}
 ID: {{date:YYYYMMDDHHmm}}
 tags:
   - 日記

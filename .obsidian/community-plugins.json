@@ -4,5 +4,6 @@
   "templater-obsidian",
   "buttons",
   "quickadd",
-  "colored-tags"
+  "colored-tags",
+  "obsidian-auto-link-title"
 ]
