@@ -285,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -303,7 +303,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "39a98be96cdd1851",
+  "active": "301bad32c049b553",
   "lastOpenFiles": [
     "テンプレート/思考用テンプレート.md",
     "思考/無題のファイル.md",
