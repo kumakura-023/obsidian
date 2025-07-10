@@ -250,6 +250,16 @@
             }
           },
           {
+            "id": "41c25b6ea5218f31",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
             "id": "2fd5771c227e0a13",
             "type": "leaf",
             "state": {
@@ -265,16 +275,6 @@
             }
           },
           {
-            "id": "41c25b6ea5218f31",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "301bad32c049b553",
             "type": "leaf",
             "state": {
@@ -285,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -303,7 +303,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "39a98be96cdd1851",
+  "active": "301bad32c049b553",
   "lastOpenFiles": [
     "テンプレート/メモ用テンプレート.md",
     "メモ/無題のファイル 1.md",
