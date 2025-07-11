@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "テンプレート/daily_temp.md",
+                "file": "Daily/2025-07-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily_temp"
+              "title": "2025-07-11"
             }
           },
           {
@@ -291,14 +291,16 @@
   },
   "active": "301bad32c049b553",
   "lastOpenFiles": [
-    "テンプレート/x_link_template.md",
+    "テンプレート/思考用テンプレート.md",
     "Daily/2025-07-11.md",
+    "テンプレート/メモ用テンプレート.md",
+    "テンプレート/x_link_template.md",
+    "テンプレート/weekly_temp.md",
+    "テンプレート/daily_temp.md",
+    "思考/死んでも.md",
     "思考/死んでもいい.md",
     "無題のファイル.md",
-    "思考/無題のファイル.md",
     "思考/おれは.md",
-    "テンプレート/思考用テンプレート.md",
-    "テンプレート/メモ用テンプレート.md",
     "思考",
     "Daily/2025-06-30.md",
     "メモ/appleデザイン.md",
@@ -318,8 +320,6 @@
     "メモ/Pasted image 20250704102049.png",
     "メモ/UIUXデザイナー.md",
     "思考/無題のフォルダ",
-    "メモ/無題のファイル 3.md",
-    "Weekly/2025-W28.md",
     "論文",
     "メモ",
     "投資",
