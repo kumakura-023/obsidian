@@ -11,10 +11,14 @@
             "id": "81d80bf643cafc64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "テンプレート/思考用テンプレート.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "思考用テンプレート"
             }
           }
         ]
@@ -94,6 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "テンプレート/思考用テンプレート.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -142,9 +147,19 @@
           "icon": "calendar-with-checkmark",
           "title": "Calendar"
         }
+      },
+      {
+        "id": "f612e36c96fafe3d",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,8 +173,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "faacfc529c6744af",
+  "active": "81d80bf643cafc64",
   "lastOpenFiles": [
+    "思考/死んでもいい.md",
+    "無題のファイル.md",
     "論文/論文まとめ.md",
     "論文",
     "Weekly/2025-W27.md",
@@ -190,8 +207,6 @@
     "メモ/プロンプト.md",
     "メモ/アイデア.md",
     "メモ/デザイン統合.md",
-    "メモ/ディズニー経営学.md",
-    "メモ/代替回答.md",
     "メモ/Pasted image 20250704102049.png",
     "メモ"
   ]
