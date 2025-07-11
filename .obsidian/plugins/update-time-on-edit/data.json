@@ -4,7 +4,9 @@
   "headerUpdated": "updated",
   "headerCreated": "created",
   "minMinutesBetweenSaves": 1,
-  "ignoreGlobalFolder": [],
+  "ignoreGlobalFolder": [
+    "テンプレート"
+  ],
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
   "fileHashMap": {
@@ -18,6 +20,7 @@
     "Daily/2025-07-02.md": "0df776affb5572220876029e4e886bd14f052b33306374fe62e6ccd09a97ac97",
     "Daily/2025-06-30.md": "9223ba3ff6391a86a1e83c8458dc969920f361082da4be593b0c89b54fa9c319",
     "思考/おれは.md": "9ffbe763865ff6d3681cc6b56232b30f7eef96d9e47126dcf1eda6b1b37f85ba",
-    "思考/死んでもいい.md": "0b4132700fe8ba96b24386a7a75bc997ab81ef23cfa9c741ef66d999c864083a"
+    "思考/死んでもいい.md": "0b4132700fe8ba96b24386a7a75bc997ab81ef23cfa9c741ef66d999c864083a",
+    "Daily/2025-07-11.md": "5b5cbd63c89d0937fc630a4f21057bf99d438a0f59b9e9fcd1a3360edfc5857d"
   }
 }
