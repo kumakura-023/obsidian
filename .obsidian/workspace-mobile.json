@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "5d97554dd30fb95e",
+    "id": "2dbc995d22962929",
     "type": "split",
     "children": [
       {
-        "id": "70dbaf7a08c2db25",
+        "id": "b3f06e8472b3c066",
         "type": "tabs",
         "children": [
           {
-            "id": "81d80bf643cafc64",
+            "id": "423682c9d3209ff3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "テンプレート/思考用テンプレート.md",
+                "file": "Daily/2025-07-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "思考用テンプレート"
+              "title": "2025-07-11"
             }
           }
         ]
@@ -27,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "062313cd385c7935",
+    "id": "949e2acc4708702c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "faacfc529c6744af",
+        "id": "fb8d031ed1989efa",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -40,11 +40,11 @@
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
-          "title": "ファイルエクスプローラ"
+          "title": "Files"
         }
       },
       {
-        "id": "619161cbbfe7c0de",
+        "id": "d1c47e9072c12393",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -57,11 +57,11 @@
             "sortOrder": "alphabetical"
           },
           "icon": "lucide-search",
-          "title": "検索"
+          "title": "Search"
         }
       },
       {
-        "id": "76d59ed246be2cf2",
+        "id": "09aa4dc54c72c66a",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -72,33 +72,32 @@
             "searchQuery": ""
           },
           "icon": "lucide-tags",
-          "title": "タグ"
+          "title": "Tags"
         }
       },
       {
-        "id": "c37742cb4955cb5b",
+        "id": "d5806c56c90a6c3c",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
           "state": {},
           "icon": "lucide-bookmark",
-          "title": "ブックマーク"
+          "title": "Bookmarks"
         }
       }
     ],
     "currentTab": 0
   },
   "right": {
-    "id": "d2d3ecb2db2dde24",
+    "id": "05f4249fdc4de1bf",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "ca6395e98f0192b2",
+        "id": "364b8dea9cb818f3",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "テンプレート/思考用テンプレート.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -108,11 +107,11 @@
             "unlinkedCollapsed": true
           },
           "icon": "links-coming-in",
-          "title": "バックリンク"
+          "title": "Backlinks"
         }
       },
       {
-        "id": "7ba17cd3c9f5f204",
+        "id": "2da08c0ddb405d70",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -121,11 +120,11 @@
             "unlinkedCollapsed": true
           },
           "icon": "links-going-out",
-          "title": "アウトゴーイングリンク"
+          "title": "Outgoing links"
         }
       },
       {
-        "id": "2658a5eab7ebb886",
+        "id": "a142cc2f2926a2dc",
         "type": "leaf",
         "state": {
           "type": "outline",
@@ -135,21 +134,11 @@
             "searchQuery": ""
           },
           "icon": "lucide-list",
-          "title": "アウトライン"
+          "title": "Outline"
         }
       },
       {
-        "id": "aba7f2065465228a",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
-        }
-      },
-      {
-        "id": "f612e36c96fafe3d",
+        "id": "16796c6aad719b2d",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -157,57 +146,67 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "f0a56b520cf4918c",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
       }
     ],
-    "currentTab": 4
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
       "templater-obsidian:Templater": false,
-      "switcher:クイックスイッチャーを開く": false,
-      "graph:グラフビューを開く": false,
-      "canvas:新規キャンバスを作成": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81d80bf643cafc64",
+  "active": "423682c9d3209ff3",
   "lastOpenFiles": [
-    "思考/死んでもいい.md",
-    "無題のファイル.md",
-    "論文/論文まとめ.md",
-    "論文",
-    "Weekly/2025-W27.md",
-    "Weekly",
-    "投資/投資関係.md",
-    "投資",
     "思考/おれは.md",
+    "思考/死んでも.md",
     "思考",
-    "Daily/2025-07-09.md",
-    "Daily/2025-07-08.md",
-    "Daily/2025-07-03.md",
-    "Daily/2025-07-07.md",
-    "Daily/2025-07-02.md",
-    "Daily/2025-07-05.md",
-    "Daily/2025-07-01.md",
-    "Daily/2025-07-10.md",
-    "Daily/2025-07-04.md",
-    "Daily/2025-06-30.md",
-    "Daily",
     "テンプレート/メモ用テンプレート.md",
     "テンプレート/weekly_temp.md",
     "テンプレート/x_link_template.md",
     "テンプレート/思考用テンプレート.md",
     "テンプレート/daily_temp.md",
     "テンプレート",
+    "投資/投資関係.md",
+    "投資",
+    "論文/論文まとめ.md",
+    "論文",
     "メモ/雑学.md",
     "メモ/makevoyage.md",
     "メモ/プロンプト.md",
     "メモ/アイデア.md",
     "メモ/デザイン統合.md",
+    "メモ/ディズニー経営学.md",
+    "メモ/代替回答.md",
+    "メモ/ゴミ.md",
     "メモ/Pasted image 20250704102049.png",
-    "メモ"
+    "メモ/コミュニケーション開発.md",
+    "メモ/UI・UX.md",
+    "メモ/design_rule.md",
+    "メモ/mRNAワクチンとは.md",
+    "メモ/メタバース.md",
+    "メモ/AI情報.md",
+    "メモ/ライフハック.md",
+    "メモ/appleデザイン.md",
+    "メモ/無題のファイル.md",
+    "メモ",
+    "Weekly",
+    "Daily"
   ]
 }
