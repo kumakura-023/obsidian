@@ -1,10 +1,16 @@
 ---
-created: 
-updated: 
-week_of: 
+create_dt:
+  "{ DATE:YYYY-MM-DD }": 
+ID:
+  "{ DATE:YYYYMMDDHHmm }": 
+start_date: 2025-06-30
+end_date: 2025-07-06
+week_of: 2025-W27
 tags:
   - weekly
   - plan
+created: 2025-07-02T16:17
+updated: 2025-07-10T14:57
 ---
 
 # 🗓 Weekly Planning
