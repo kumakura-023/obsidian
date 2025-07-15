@@ -137,14 +137,14 @@
             "id": "818d7f6740290fcc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Daily/2025-07-15.md",
-                "bFile": "Daily/2025-07-15.md",
-                "aRef": ""
+                "file": "Daily/2025-07-15.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2025-07-15"
+              "icon": "lucide-file",
+              "title": "2025-07-15"
             }
           }
         ],
