@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2025-07-15.md",
+                "file": "Daily/2025-07-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-15"
+              "title": "2025-07-22"
             }
           }
         ],
@@ -269,8 +269,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "アクティブでなくなったプラグイン"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -299,7 +299,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -317,11 +317,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "301bad32c049b553",
+  "active": "818d7f6740290fcc",
   "lastOpenFiles": [
+    "Daily/2025-07-23.md",
+    "Daily/2025-07-22.md",
+    "Daily/2025-07-15.md",
     "Daily/2025-07-16.md",
     "Daily/2025-07-14.md",
-    "Daily/2025-07-15.md",
     "Daily/2025-07-11.md",
     "テンプレート/daily_temp.md",
     "conflict-files-obsidian-git.md",
@@ -344,8 +346,6 @@
     "メモ/代替回答.md",
     "メモ/ライフハック.md",
     "メモ/メタバース.md",
-    "メモ/ディズニー経営学.md",
-    "メモ/makevoyage.md",
     "メモ/Pasted image 20250704102049.png",
     "思考/無題のフォルダ",
     "論文",
