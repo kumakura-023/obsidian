@@ -120,20 +120,6 @@
             }
           },
           {
-            "id": "2f78fc2e6dfbe08c",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
             "id": "818d7f6740290fcc",
             "type": "leaf",
             "state": {
@@ -148,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -279,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2025-07-07.md",
+                "file": "Daily/2025-07-03.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-07-07のアウトライン"
+              "title": "2025-07-03のアウトライン"
             }
           },
           {
@@ -299,7 +285,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -317,10 +303,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "818d7f6740290fcc",
+  "active": "301bad32c049b553",
   "lastOpenFiles": [
-    "Daily/2025-07-23.md",
     "Daily/2025-07-22.md",
+    "Daily/2025-07-23.md",
     "Daily/2025-07-15.md",
     "Daily/2025-07-16.md",
     "Daily/2025-07-14.md",
