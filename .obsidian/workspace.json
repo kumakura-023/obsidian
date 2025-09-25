@@ -11,14 +11,13 @@
             "id": "c06a06ba0bac28d7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "bases",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "無題のファイル.base",
+                "viewName": "Table"
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-table",
+              "title": "無題のファイル"
             }
           }
         ]
@@ -74,8 +73,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,8 +190,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c06a06ba0bac28d7",
+  "active": "6b4989763f380dd7",
   "lastOpenFiles": [
+    "無題のファイル.base",
     "Daily/2025-07-09.md",
     "Daily/2025-07-01.md",
     "Daily/2025-07-22.md",
@@ -219,7 +218,6 @@
     "テンプレート/思考用テンプレート.md",
     "テンプレート/メモ用テンプレート.md",
     "テンプレート/x_link_template.md",
-    "テンプレート/weekly_temp.md",
     "思考",
     "メモ/Pasted image 20250704102049.png",
     "思考/無題のフォルダ",
