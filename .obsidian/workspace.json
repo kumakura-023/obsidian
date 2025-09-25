@@ -123,12 +123,14 @@
             "id": "ce5a298b18b0883e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.10"
+                "file": "Daily/2025-09-25.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "icon": "lucide-file",
+              "title": "2025-09-25"
             }
           },
           {
@@ -318,6 +320,7 @@
   },
   "active": "ce5a298b18b0883e",
   "lastOpenFiles": [
+    "Daily/2025-09-25.md",
     "メモ/UI・UX.md",
     "Daily/2025-08-26.md",
     "メモ/代替回答.md",
@@ -343,7 +346,6 @@
     "テンプレート/x_link_template.md",
     "テンプレート/weekly_temp.md",
     "思考/死んでも.md",
-    "無題のファイル.md",
     "思考",
     "メモ/Pasted image 20250704102049.png",
     "思考/無題のフォルダ",
