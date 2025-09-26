@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "2025-09-26"
             }
+          },
+          {
+            "id": "0e5d5d64b4b1f24b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Daily/2025-09-26.md",
+                "bFile": "Daily/2025-09-26.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 2025-09-26"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,8 +220,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e076f37d2611bfa",
+  "active": "0e5d5d64b4b1f24b",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Daily/2025-09-26.md",
     "投資/投資関係.md",
     "メモ/報告書.md",
@@ -234,7 +249,6 @@
     "Daily/2025-07-15.md",
     "Daily/2025-07-16.md",
     "Daily/2025-07-14.md",
-    "conflict-files-obsidian-git.md",
     "思考",
     "メモ/Pasted image 20250704102049.png",
     "思考/無題のフォルダ",
