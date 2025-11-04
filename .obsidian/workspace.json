@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "42cfa0073f0c0243",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
             "id": "0e5d5d64b4b1f24b",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,7 +232,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e076f37d2611bfa",
+  "active": "42cfa0073f0c0243",
   "lastOpenFiles": [
     "Daily/2025-09-26.md",
     "Daily/2025-09-29.md",
