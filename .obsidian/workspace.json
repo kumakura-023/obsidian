@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/イベント.md",
+                "file": "C#/同期・スレッド.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "イベント"
+              "title": "同期・スレッド"
             }
           },
           {
@@ -236,8 +236,9 @@
   },
   "active": "42cfa0073f0c0243",
   "lastOpenFiles": [
-    "C#/シリアル通信プログラム解説.md",
     "C#/イベント.md",
+    "C#/同期・スレッド.md",
+    "C#/シリアル通信プログラム解説.md",
     "C#/多態性.md",
     "C#/排他制御.md",
     "Daily/2025-11-10.md",
@@ -263,7 +264,6 @@
     "メモ/報告書.md",
     "メモ/無題のファイル.md",
     "メモ/代替回答.md",
-    "メモ/雑学.md",
     "思考",
     "メモ/Pasted image 20250704102049.png",
     "思考/無題のフォルダ",
