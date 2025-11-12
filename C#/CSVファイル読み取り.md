@@ -94,6 +94,7 @@ string[] rawLines = ReadAllLinesWithEncoding(resolvedPath);
 int copyCount = Math.Min(rawLines.Length, InfraredWordCount);
 for (int i = 0; i < copyCount; i++)
 {
+	//NormalizeLabel で空行や空白を除去。
     _labels[i] = NormalizeLabel(rawLines[i]);
 }
 
@@ -106,7 +107,7 @@ private static string[] ReadAllLinesWithEncoding(string path)
 {
     byte[] bytes = File.ReadAllBytes(path);
     string text;
-	//BOM(Byte Order Mark)
+	//BOM(Byte Order MarkがあればUTF-8)
     if (HasUtf8Bom(bytes))
     {
         text = Encoding.UTF8.GetString(bytes);
@@ -119,6 +120,7 @@ private static string[] ReadAllLinesWithEncoding(string path)
         }
         catch (DecoderFallbackException)
         {
+	        //UTF8じゃなければShiftJisで読む
             text = ShiftJis.GetString(bytes);
         }
     }
@@ -127,7 +129,7 @@ private static string[] ReadAllLinesWithEncoding(string path)
     {
         text = text[1..];
     }
-
+	//改行コードをすべて\nに統一
     text = text.Replace("\r\n", "\n").Replace('\r', '\n');
 
     var lines = new List<string>();
