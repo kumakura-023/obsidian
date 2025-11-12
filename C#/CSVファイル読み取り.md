@@ -60,3 +60,4 @@ string baseDirectory = AppContext.BaseDirectory;
     
 
 つまり、**アプリがどのフォルダに展開されても、相対的にCSVを探せるようにしている**。
+
