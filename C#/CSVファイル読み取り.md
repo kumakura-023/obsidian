@@ -98,9 +98,49 @@ for (int i = 0; i < copyCount; i++)
 }
 
 ```
-`string[] rawLines = ReadAllLinesWithEncoding(resolvedPath); int copyCount = Math.Min(rawLines.Length, InfraredWordCount); for (int i = 0; i < copyCount; i++) {     _labels[i] = NormalizeLabel(rawLines[i]); }`
 
 #### (a) `ReadAllLinesWithEncoding`
+
+```C#
+private static string[] ReadAllLinesWithEncoding(string path)
+{
+    byte[] bytes = File.ReadAllBytes(path);
+    string text;
+	//BOM(Byte Order Mark)
+    if (HasUtf8Bom(bytes))
+    {
+        text = Encoding.UTF8.GetString(bytes);
+    }
+    else
+    {
+        try
+        {
+            text = Utf8Strict.GetString(bytes);
+        }
+        catch (DecoderFallbackException)
+        {
+            text = ShiftJis.GetString(bytes);
+        }
+    }
+
+    if (text.Length > 0 && text[0] == '\uFEFF')
+    {
+        text = text[1..];
+    }
+
+    text = text.Replace("\r\n", "\n").Replace('\r', '\n');
+
+    var lines = new List<string>();
+    using var reader = new StringReader(text);
+    string? line;
+    while ((line = reader.ReadLine()) is not null)
+    {
+        lines.Add(line);
+    }
+
+    return lines.ToArray();
+}
+```
 
 ここがちょっとした技術ポイント。
 
