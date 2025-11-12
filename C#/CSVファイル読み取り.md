@@ -26,3 +26,37 @@ public sealed class InfraredWordLabelProvider : IInfraredWordLabelProvider
     
 - `_readOnlyLabels`  
     = UIが参照するための読み取り専用ビュー。
+
+## 🪶 CSVロードの流れ
+
+### 1. コンストラクタで初期化
+
+```C#
+public InfraredWordLabelProvider(string? csvPath = null) {
+
+ _readOnlyLabels = Array.AsReadOnly(_labels);
+ Array.Fill(_labels, string.Empty); 
+ 
+ string? resolvedPath = csvPath ?? ResolveDefaultPath();
+ ... 
+  }`
+```
+
+まず `_labels` を空文字で埋める。  
+その後 `csvPath` が渡されなければ、`ResolveDefaultPath()` で自動探索する。
+
+### 2. パス探索 (`ResolveDefaultPath`)
+
+```C#
+const string relativeFolder = "docs";
+const string fileName = "赤外コマンド項目.csv";
+string baseDirectory = AppContext.BaseDirectory;
+```
+
+- 実行ファイルのディレクトリから始めて、  
+    `docs/赤外コマンド項目.csv` が存在するかを6階層上まで探索する。
+    
+- どこにもなければ `null` を返す。
+    
+
+つまり、**アプリがどのフォルダに展開されても、相対的にCSVを探せるようにしている**。
