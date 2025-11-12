@@ -48,9 +48,33 @@ public InfraredWordLabelProvider(string? csvPath = null) {
 ### 2. パス探索 (`ResolveDefaultPath`)
 
 ```C#
-const string relativeFolder = "docs";
-const string fileName = "赤外コマンド項目.csv";
-string baseDirectory = AppContext.BaseDirectory;
+ private static string? ResolveDefaultPath()
+ {
+     const string relativeFolder = "docs";
+     const string fileName = "赤外コマンド項目.csv";
+     string baseDirectory = AppContext.BaseDirectory;
+
+     string candidate = Path.Combine(baseDirectory, relativeFolder, fileName);
+     if (File.Exists(candidate))
+     {
+         return candidate;
+     }
+
+     DirectoryInfo? directory = new DirectoryInfo(baseDirectory);
+     //6階層上まで探索
+     for (int i = 0; i < 6 && directory is not null; i++)
+     {
+         candidate = Path.Combine(directory.FullName, relativeFolder, fileName);
+         if (File.Exists(candidate))
+         {
+             return candidate;
+         }
+
+         directory = directory.Parent;
+     }
+
+     return null;
+ }
 ```
 
 - 実行ファイルのディレクトリから始めて、  
@@ -61,3 +85,38 @@ string baseDirectory = AppContext.BaseDirectory;
 
 つまり、**アプリがどのフォルダに展開されても、相対的にCSVを探せるようにしている**。
 
+
+
+### 3. ファイル読み込み
+
+```C#
+string[] rawLines = ReadAllLinesWithEncoding(resolvedPath);
+int copyCount = Math.Min(rawLines.Length, InfraredWordCount);
+for (int i = 0; i < copyCount; i++)
+{
+    _labels[i] = NormalizeLabel(rawLines[i]);
+}
+
+```
+`string[] rawLines = ReadAllLinesWithEncoding(resolvedPath); int copyCount = Math.Min(rawLines.Length, InfraredWordCount); for (int i = 0; i < copyCount; i++) {     _labels[i] = NormalizeLabel(rawLines[i]); }`
+
+#### (a) `ReadAllLinesWithEncoding`
+
+ここがちょっとした技術ポイント。
+
+- ファイル全体をバイトで読む。
+    
+- もしBOM（Byte Order Mark）があればUTF-8と判断。
+    
+- それがなければ、まずUTF-8でデコードを試す。
+    
+    - 失敗したらShift_JISで再トライ。
+        
+
+結果的に、**UTF-8 or Shift_JIS どちらのCSVでも正しく読める**ようにしてある。
+
+#### (b) 行単位の正規化
+
+- 改行コードをすべて `\n` に統一。
+    
+- `NormalizeLabel` で空行や空白を除去。
