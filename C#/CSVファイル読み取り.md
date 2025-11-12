@@ -162,3 +162,33 @@ private static string[] ReadAllLinesWithEncoding(string path)
 - 改行コードをすべて `\n` に統一。
     
 - `NormalizeLabel` で空行や空白を除去。
+
+## 🧭 ラベル参照の仕組み
+
+```C#
+public string GetLabel(int frameWordIndex)
+{
+    int offset = frameWordIndex - FirstInfraredWordIndex;
+    if (offset < 0 || offset >= InfraredWordCount)
+    {
+        return string.Empty;
+    }
+    return _labels[offset];
+}
+
+```
+
+`Frame73` の絶対インデックス（0〜72）を渡すと、赤外領域に属する場合だけ対応するラベルを返す。  
+つまり：
+```C#
+frameWordIndex = 22 → _labels[0]
+frameWordIndex = 23 → _labels[1]
+...
+frameWordIndex = 71 → _labels[49]
+
+```
+`frameWordIndex = 22 → _labels[0] frameWordIndex = 23 → _labels[1] ... frameWordIndex = 71 → _labels[49]`
+
+これを `Frame73WordsModel` が利用して、  
+`WordRow(index, value, true, _labelProvider.GetLabel(index))`  
+としてUIにラベルを渡す。
