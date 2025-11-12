@@ -185,9 +185,7 @@ frameWordIndex = 22 → _labels[0]
 frameWordIndex = 23 → _labels[1]
 ...
 frameWordIndex = 71 → _labels[49]
-
 ```
-`frameWordIndex = 22 → _labels[0] frameWordIndex = 23 → _labels[1] ... frameWordIndex = 71 → _labels[49]`
 
 これを `Frame73WordsModel` が利用して、  
 `WordRow(index, value, true, _labelProvider.GetLabel(index))`  
