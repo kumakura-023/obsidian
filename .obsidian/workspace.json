@@ -57,7 +57,7 @@
               "state": {
                 "file": "C#/イベント.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "イベント"
