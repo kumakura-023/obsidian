@@ -53,14 +53,13 @@
             "id": "858cd04cfc8e3e57",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "C#/イベント.md",
-                "mode": "source",
-                "source": false
+                "file": "無題のファイル.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "イベント"
+              "icon": "lucide-table",
+              "title": "無題のファイル"
             }
           },
           {
@@ -250,8 +249,8 @@
   },
   "active": "858cd04cfc8e3e57",
   "lastOpenFiles": [
-    "C#/インターフェース.md",
     "C#/イベント.md",
+    "C#/インターフェース.md",
     "C#/CSVファイル読み取り.md",
     "C#/フィールド・プロパティ・コンストラクタ.md",
     "C#/排他制御.md",
