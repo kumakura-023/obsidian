@@ -64,6 +64,18 @@
             }
           },
           {
+            "id": "af4224593cdacd48",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          },
+          {
             "id": "0e5d5d64b4b1f24b",
             "type": "leaf",
             "state": {
@@ -78,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -248,7 +260,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "858cd04cfc8e3e57",
+  "active": "af4224593cdacd48",
   "lastOpenFiles": [
     "C#/インターフェース.md",
     "C#/同期・スレッド.md",
