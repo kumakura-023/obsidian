@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/正規表現.md",
+                "file": "C#/Exercizm/正規表現.md",
                 "mode": "source",
                 "source": false
               },
@@ -265,6 +265,8 @@
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
     "C#/正規表現.md",
+    "C#/Exercizm/正規表現.md",
+    "C#/Exercizm",
     "C#/インターフェース.md",
     "C#/同期・スレッド.md",
     "Daily/2025-11-25.md",
@@ -291,7 +293,6 @@
     "Daily/2025-07-23.md",
     "Daily/2025-07-22.md",
     "Daily/2025-07-18.md",
-    "Daily/2025-07-16.md",
     "思考",
     "メモ/Pasted image 20250704102049.png",
     "思考/無題のフォルダ",
@@ -302,7 +303,6 @@
     "無題のファイル 1.canvas",
     "テンプレート/convert_x_links.tpl",
     "Pasted image 20250703154037.png",
-    "Daily",
-    "テンプレート"
+    "Daily"
   ]
 }
