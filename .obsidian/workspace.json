@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/正規表現.md",
+                "file": "C#/Exercizm/DateTime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "正規表現"
+              "title": "DateTime"
             }
           },
           {
@@ -264,10 +264,10 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
+    "C#/Exercizm/正規表現.md",
     "C#/Exercizm/文字.md",
     "C#/Exercizm/DateTime.md",
     "C#/Exercizm/配列操作.md",
-    "C#/Exercizm/正規表現.md",
     "C#/正規表現.md",
     "C#/Exercizm",
     "C#/インターフェース.md",

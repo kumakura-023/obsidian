@@ -1,6 +1,6 @@
 ---
 created: 2025-11-28T15:26
-updated: 2025-11-28T15:26
+updated: 2025-11-28T15:55
 ---
 ```C#
 static class Appointment
