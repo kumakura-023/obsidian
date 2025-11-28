@@ -15,16 +15,19 @@ static class Appointment
 
     public static bool HasPassed(DateTime appointmentDate)
     {
+	    //時刻の比較
         return appointmentDate.CompareTo(DateTime.Now) == -1
     }
 
     public static bool IsAfternoonAppointment(DateTime appointmentDate)
     {
+	    //DateTimeの時間だけ取得、比較
         return appointmentDate.TimeOfDay.Hour >= 12
     }
 
     public static string Description(DateTime appointmentDate)
     {
+	    //
         throw new NotImplementedException("Please implement the (static) Appointment.Description() method");
     }
 
