@@ -1,6 +1,6 @@
 ---
 created: 2025-11-28T15:26
-updated: 2025-11-28T15:59
+updated: 2025-11-28T16:00
 ---
 ## 日付をテキストからDateTimeへ
 ### フォーマットが厳しい
@@ -22,6 +22,8 @@ return DateTime.Parse(appointmentDateDescription);
 ```
 
 ## 時刻の比較
+
+### DateTimeどうしで比較
 ```C#
     public static bool HasPassed(DateTime appointmentDate)
     {
@@ -30,7 +32,7 @@ return DateTime.Parse(appointmentDateDescription);
     }
 ```
 
-## 定刻と比較
+### 定刻と比較
 ```C#
     public static bool IsAfternoonAppointment(DateTime appointmentDate)
     {
@@ -40,15 +42,20 @@ return DateTime.Parse(appointmentDateDescription);
 ```
 
 ## DateTimeからStringへ
+
 ```C#
     public static string Description(DateTime appointmentDate)
     {
 	    //
         return $"You have an appointment on {appointmentDate.ToString("M/d/yyyy h:mm:ss tt")}.";
     }
+    
+    //簡単に書くと
+    return $"You have an appointment on {appointmentDate}.";
 ```
 
 ## 特定の日付を毎年更新
+
 ```C#
     public static DateTime AnniversaryDate()
     {
