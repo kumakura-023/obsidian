@@ -1,6 +1,6 @@
 ---
 created: 2025-12-02T13:16
-updated: 2025-12-02T13:16
+updated: 2025-12-02T16:01
 ---
 ### 演習問題回答
 ```C#
@@ -67,4 +67,56 @@ public static string OutputForShortLog(LogLevel logLevel, string message)
 
     return $"{levelnum}:{message}";
 }
+```
+
+## ・enum [flags]
+```C#
+// TODO: define the 'AccountType' enum
+[Flags]
+enum AccountType
+{
+    Guest,
+    User,
+    Moderator
+}
+// TODO: define the 'Permission' enum
+[Flags]
+enum Permission : byte
+{
+    None   = 0,
+    Read   = 1 << 0, // 0b00000001
+    Write  = 1 << 1, // 0b00000010
+    Delete = 1 << 2, // 0b00000100
+    All    = Read | Write | Delete
+}
+static class Permissions
+{
+    public static Permission Default(AccountType accountType)
+    {
+        Permission permission  = accountType switch
+        {
+                AccountType.Guest => Permission.Read,
+                AccountType.User =>  Permission.Read | Permission.Write,
+                AccountType.Moderator => Permission.All,
+                    _ => Permission.None
+        };
+        return permission;
+    }
+
+    public static Permission Grant(Permission current, Permission grant)
+    {
+        return current | grant;
+    }
+
+    public static Permission Revoke(Permission current, Permission revoke)
+    {
+        return current &= ~revoke;
+    }
+
+    public static bool Check(Permission current, Permission check)
+    {
+        return (current & check) == check;
+    }
+}
+
 ```
