@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/enum・switch.md",
+                "file": "C#/Exercizm/例外処理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "enum・switch"
+              "title": "例外処理"
             }
           },
           {
@@ -208,16 +208,6 @@
             }
           },
           {
-            "id": "41c25b6ea5218f31",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "2fd5771c227e0a13",
             "type": "leaf",
             "state": {
@@ -233,6 +223,16 @@
             }
           },
           {
+            "id": "41c25b6ea5218f31",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
             "id": "301bad32c049b553",
             "type": "leaf",
             "state": {
@@ -243,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -264,8 +264,8 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
-    "C#/Exercizm/無題のファイル.md",
     "C#/Exercizm/enum・switch.md",
+    "C#/Exercizm/例外処理.md",
     "C#/Exercizm/正規表現.md",
     "C#/Exercizm/配列操作.md",
     "C#/Exercizm/文字.md",
