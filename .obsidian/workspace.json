@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/例外処理.md",
+                "file": "C#/フィールド・プロパティ・コンストラクタ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "例外処理"
+              "title": "フィールド・プロパティ・コンストラクタ"
             }
           },
           {
@@ -264,6 +264,7 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
+    "C#/Exercizm/例外処理.md",
     "C#/フィールド・プロパティ・コンストラクタ.md",
     "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/型判定.md",
@@ -271,7 +272,6 @@
     "投資/投資関係.md",
     "論文/論文まとめ.md",
     "C#/シリアル通信プログラム解説.md",
-    "C#/Exercizm/例外処理.md",
     "C#/Exercizm/正規表現.md",
     "C#/Exercizm/配列操作.md",
     "C#/Exercizm/文字.md",
