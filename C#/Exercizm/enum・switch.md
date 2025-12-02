@@ -2,6 +2,7 @@
 created: 2025-12-02T13:16
 updated: 2025-12-02T13:16
 ---
+### 演習問題回答
 ```C#
 enum LogLevel
 {
@@ -50,7 +51,7 @@ static class LogLine
 }
 ```
 
-### switch
+### ・switch文を簡潔に書く方法
 ```C#
 public static string OutputForShortLog(LogLevel logLevel, string message)
 {
