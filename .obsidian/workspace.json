@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/演算子オーバーロード.md",
+                "file": "C#/Exercizm/無題のファイル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "演算子オーバーロード"
+              "title": "無題のファイル"
             }
           },
           {
@@ -264,8 +264,9 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
-    "C#/Exercizm/HashCode&Equals.md",
     "C#/Exercizm/演算子オーバーロード.md",
+    "C#/Exercizm/無題のファイル.md",
+    "C#/Exercizm/HashCode&Equals.md",
     "C#/Exercizm/初期化宣言.md",
     "C#/インターフェース.md",
     "アクセストークン.md",
@@ -290,7 +291,6 @@
     "Daily/2025-11-25.md",
     "Daily/2025-11-04.md",
     "Daily/2025-11-10.md",
-    "思考/死んでもいい.md",
     "無題のファイル.base",
     "C#",
     "思考",
