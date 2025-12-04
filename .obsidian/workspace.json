@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/インターフェース.md",
+                "file": "C#/Exercizm/HashCode&Equals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "インターフェース"
+              "title": "HashCode&Equals"
             }
           },
           {
@@ -264,8 +264,9 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
-    "アクセストークン.md",
     "C#/インターフェース.md",
+    "C#/Exercizm/HashCode&Equals.md",
+    "アクセストークン.md",
     "C#/フィールド・プロパティ・コンストラクタ.md",
     "C#/Exercizm/例外処理.md",
     "C#/Exercizm/enum・switch.md",
@@ -291,7 +292,6 @@
     "思考/死んでも.md",
     "思考/おれは.md",
     "無題のファイル.base",
-    "C#/イベント.md",
     "C#",
     "思考",
     "メモ/Pasted image 20250704102049.png",
