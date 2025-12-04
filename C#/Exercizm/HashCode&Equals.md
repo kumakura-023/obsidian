@@ -11,3 +11,68 @@ GetHashCode()は、同一のインスタンスには同一のコードを返す�
 ## Equals
 
 そこで、Equals()を使って本当に同一であるかを確認する。
+
+# 使い方
+
+Identityクラス
+```C#
+public class Identity
+{
+    public string Email { get; }
+    public FacialFeatures FacialFeatures { get; }
+
+    public Identity(string email, FacialFeatures facialFeatures)
+    {
+        Email = email;
+        FacialFeatures = facialFeatures;
+    }
+
+    public override bool Equals(object? obj)
+    {
+        if (obj is not Identity other)
+            return false;
+
+        return Email == other.Email
+            && FacialFeatures.Equals(other.FacialFeatures);
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(Email, FacialFeatures);
+    }
+}
+```
+
+認証クラス
+```C#
+public class Authenticator
+{
+    private static readonly Identity AdminIdentity =
+        new Identity("admin@exerc.ism", new FacialFeatures("green", 0.9m));
+
+    // 登録された Identity の集合
+    private readonly HashSet<Identity> _registered = new();
+
+    public bool IsAdmin(Identity identity)
+        => identity.Equals(AdminIdentity);
+
+    public bool Register(Identity identity)
+        => _registered.Add(identity); // すでにあれば false, なければ true
+
+    public bool IsRegistered(Identity identity)
+        => _registered.Contains(identity);
+}
+```
+
+ポイント：
+
+- `HashSet<T>.Add` は
+
+- その値がまだ無ければ追加して `true`
+
+- すでに同じものがあれば追加せず `false` を返してくれる
+
+- `Contains` も同じく `Equals` / `GetHashCode` を使って判定してくれる
+    
+
+だから、**自分で「ハッシュのリスト」とか「あの3つの値のセット」を管理する必要はない**。
