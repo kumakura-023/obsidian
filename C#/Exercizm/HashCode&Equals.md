@@ -65,14 +65,9 @@ public class Authenticator
 ```
 
 ポイント：
-
-- `HashSet<T>.Add` は
-
+ `HashSet<T>.Add` は
 - その値がまだ無ければ追加して `true`
-
 - すでに同じものがあれば追加せず `false` を返してくれる
-
-- `Contains` も同じく `Equals` / `GetHashCode` を使って判定してくれる
-    
+ `Contains` も同じく `Equals` / `GetHashCode` を使って判定してくれる
 
 だから、**自分で「ハッシュのリスト」とか「あの3つの値のセット」を管理する必要はない**。
