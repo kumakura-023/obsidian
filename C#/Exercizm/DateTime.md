@@ -1,6 +1,6 @@
 ---
 created: 2025-11-28T15:26
-updated: 2025-11-28T16:00
+updated: 2025-12-09T10:19
 tags:
 ---
 ## 日付をテキストからDateTimeへ
@@ -63,4 +63,37 @@ return DateTime.Parse(appointmentDateDescription);
          return new DateTime(DateTime.Now.Year, 9, 15, 0, 0, 0);
     }
 }
+```
+
+```C#
+public static bool HasDaylightSavingChanged(DateTime dt, Location location)
+    {
+        string locationString = location switch
+        {
+            Location.NewYork => "Eastern Standard Time",
+            Location.London  => "GMT Standard Time",
+            Location.Paris   => "W. Europe Standard Time",
+            _ => throw new ArgumentOutOfRangeException()
+        };
+    
+        var tz = TimeZoneInfo.FindSystemTimeZoneById(locationString);
+    
+        bool? prev = null;
+    
+        for (int i = 0; i <= 7; i++)
+        {
+	        //dt.AddDays()はイミュータブル（不変）
+            var check = dt.AddDays(-i);
+            bool isDst = tz.IsDaylightSavingTime(check);
+    
+            if (prev != null && prev != isDst)
+            {
+                return true; // 切り替わった瞬間をキャッチ
+            }
+    
+            prev = isDst;
+        }
+    
+        return false;
+    }
 ```
