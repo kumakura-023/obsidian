@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/例外処理.md",
+                "file": "C#/Exercizm/リスト.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "例外処理"
+              "title": "リスト"
             }
           },
           {
@@ -264,6 +264,8 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
+    "C#/Exercizm/例外処理.md",
+    "C#/Exercizm/リスト.md",
     "C#/Exercizm/正規表現.md",
     "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/HashCode&Equals.md",
@@ -272,7 +274,6 @@
     "C#/Exercizm/フォーマット.md",
     "C#/Exercizm/DateTime.md",
     "C#/インターフェース.md",
-    "C#/Exercizm/例外処理.md",
     "C#/Exercizm/初期化宣言.md",
     "C#/Exercizm/継承.md",
     "C#/Exercizm/型判定.md",
@@ -290,7 +291,6 @@
     "C#/Exercizm",
     "C#/同期・スレッド.md",
     "Daily/2025-11-25.md",
-    "Daily/2025-11-04.md",
     "無題のファイル.base",
     "C#",
     "思考",
