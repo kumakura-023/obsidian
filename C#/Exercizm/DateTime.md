@@ -91,7 +91,6 @@ public static DateTime NormalizeDateTime(string dtStr, Location location)
         return new DateTime(1, 1, 1); // Bad format
     }
 ```
-
 ## 過去七日間の間にサマータイムがあったか
 ```C#
 public static bool HasDaylightSavingChanged(DateTime dt, Location location)
