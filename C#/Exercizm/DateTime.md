@@ -1,6 +1,6 @@
 ---
 created: 2025-11-28T15:26
-updated: 2025-12-09T10:23
+updated: 2025-12-09T10:26
 tags:
 ---
 ## 日付をテキストからDateTimeへ
@@ -92,6 +92,7 @@ public static DateTime NormalizeDateTime(string dtStr, Location location)
     }
 ```
 
+## 過去七日間の間にサマータイムがあったか
 ```C#
 public static bool HasDaylightSavingChanged(DateTime dt, Location location)
     {
