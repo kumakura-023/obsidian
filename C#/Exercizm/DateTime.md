@@ -1,6 +1,6 @@
 ---
 created: 2025-11-28T15:26
-updated: 2025-12-09T10:19
+updated: 2025-12-09T10:20
 tags:
 ---
 ## 日付をテキストからDateTimeへ
@@ -83,6 +83,7 @@ public static bool HasDaylightSavingChanged(DateTime dt, Location location)
         for (int i = 0; i <= 7; i++)
         {
 	        //dt.AddDays()はイミュータブル（不変）
+	        //
             var check = dt.AddDays(-i);
             bool isDst = tz.IsDaylightSavingTime(check);
     
