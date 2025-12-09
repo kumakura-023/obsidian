@@ -1,6 +1,6 @@
 ---
 created: 2025-11-28T15:26
-updated: 2025-12-09T10:20
+updated: 2025-12-09T10:23
 tags:
 ---
 ## 日付をテキストからDateTimeへ
@@ -63,6 +63,33 @@ return DateTime.Parse(appointmentDateDescription);
          return new DateTime(DateTime.Now.Year, 9, 15, 0, 0, 0);
     }
 }
+```
+
+## フォーマット標準化
+```C#
+public static DateTime NormalizeDateTime(string dtStr, Location location)
+    {
+        var format = location switch
+        {
+            Location.London  => "dd/MM/yyyy HH:mm:ss",
+            Location.NewYork => "MM/dd/yyyy HH:mm:ss",
+            Location.Paris   => "dd/MM/yyyy HH:mm:ss",
+            _ => throw new NotImplementedException()
+        };
+    
+        // TryParseExact の正しい呼び方
+        if (DateTime.TryParseExact(
+            dtStr,
+            format,
+            CultureInfo.InvariantCulture,   // ★ string ではなく CultureInfo
+            DateTimeStyles.None,            // ★ styles が必要
+            out var result))
+        {
+            return result;
+        }
+    
+        return new DateTime(1, 1, 1); // Bad format
+    }
 ```
 
 ```C#
