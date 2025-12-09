@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/リスト.md",
+                "file": "C#/Exercizm/文字.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "リスト"
+              "title": "文字"
             }
           },
           {
@@ -264,12 +264,12 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
-    "C#/Exercizm/例外処理.md",
+    "C#/Exercizm/配列操作.md",
     "C#/Exercizm/リスト.md",
+    "C#/Exercizm/例外処理.md",
     "C#/Exercizm/正規表現.md",
     "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/HashCode&Equals.md",
-    "C#/Exercizm/配列操作.md",
     "C#/Exercizm/文字.md",
     "C#/Exercizm/フォーマット.md",
     "C#/Exercizm/DateTime.md",
