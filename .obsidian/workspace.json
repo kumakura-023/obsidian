@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/クラス.md",
+                "file": "C#/Exercizm/HashCode&Equals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "クラス"
+              "title": "HashCode&Equals"
             }
           },
           {
@@ -264,6 +264,7 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
+    "C#/Exercizm/クラス.md",
     "C#/Exercizm/フォーマット.md",
     "C#/Exercizm/HashCode&Equals.md",
     "C#/Exercizm/正規表現.md",
@@ -278,7 +279,6 @@
     "C#/Exercizm/初期化宣言.md",
     "C#/Exercizm/継承.md",
     "C#/Exercizm/型判定.md",
-    "C#/Exercizm/クラス.md",
     "C#/Exercizm/out・ref修飾子.md",
     "C#/Exercizm/演算子オーバーロード.md",
     "アクセストークン.md",
