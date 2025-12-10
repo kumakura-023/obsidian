@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/HashCode&Equals.md",
+                "file": "C#/Exercizm/enum・switch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashCode&Equals"
+              "title": "enum・switch"
             }
           },
           {
@@ -264,9 +264,9 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
+    "C#/Exercizm/HashCode&Equals.md",
     "C#/Exercizm/クラス.md",
     "C#/Exercizm/フォーマット.md",
-    "C#/Exercizm/HashCode&Equals.md",
     "C#/Exercizm/正規表現.md",
     "C#/排他制御.md",
     "C#/Exercizm/文字.md",
