@@ -1,6 +1,6 @@
 ---
 created: 2025-12-02T13:16
-updated: 2025-12-10T16:52
+updated: 2025-12-10T16:53
 ---
 ### 演習問題回答
 ```C#
@@ -121,7 +121,7 @@ static class Permissions
 
 ```
 
-```
+```C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -155,13 +155,16 @@ public class Allergies
 
     public Allergen[] List()
     {
-        //var list = new List<Allergen>();
-        //foreach (Allergen al in Enum.GetValues(typeof(Allergen)))
-        //    if (IsAllergicTo(al))
-        //        list.Add(al);
-        //return list.ToArray();
-
-        return Enum.GetValues(typeof(Allergen)).Cast<Allergen>().Where(al => IsAllergicTo(al)).ToArray();
+        return 
+        Enum
+        .GetValues(typeof(Allergen))
+        .Cast<Allergen>()
+        .Where(al => IsAllergicTo(al))
+        .ToArray();
+        
+        //Enum.GetValues<Allergen>()
+               .Where(a => allergy.HasFlag(a))
+               .ToArray();
     }
 }
 ```
