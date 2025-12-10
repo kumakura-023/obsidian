@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/文字.md",
+                "file": "C#/Exercizm/正規表現.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文字"
+              "title": "正規表現"
             }
           },
           {
@@ -264,14 +264,15 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
+    "C#/排他制御.md",
+    "C#/Exercizm/フォーマット.md",
+    "C#/Exercizm/文字.md",
     "C#/Exercizm/配列操作.md",
+    "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/リスト.md",
     "C#/Exercizm/例外処理.md",
     "C#/Exercizm/正規表現.md",
-    "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/HashCode&Equals.md",
-    "C#/Exercizm/文字.md",
-    "C#/Exercizm/フォーマット.md",
     "C#/Exercizm/DateTime.md",
     "C#/インターフェース.md",
     "C#/Exercizm/初期化宣言.md",
@@ -290,7 +291,6 @@
     "C#/正規表現.md",
     "C#/Exercizm",
     "C#/同期・スレッド.md",
-    "Daily/2025-11-25.md",
     "無題のファイル.base",
     "C#",
     "思考",
