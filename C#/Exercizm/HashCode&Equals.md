@@ -1,6 +1,6 @@
 ---
 created: 2025-12-04T10:50
-updated: 2025-12-04T11:11
+updated: 2025-12-10T15:57
 ---
 # HashCodeとは
 
@@ -80,3 +80,48 @@ public class Authenticator
  `Contains` も同じく `Equals` / `GetHashCode` を使って判定してくれる
 
 だから、**自分で「ハッシュのリスト」とか「あの3つの値のセット」を管理する必要はない**。
+
+```C#
+public class Robot
+{
+    private static HashSet<string> usedNames = new HashSet<string>();
+    private static Random random = new Random();
+
+    private string? name;
+
+    public string Name
+    {
+        get
+        {
+            if (name == null)
+                name = GenerateUniqueName();
+
+            return name;
+        }
+    }
+
+    public void Reset()
+    {
+        usedNames.Remove(name!);
+        name = null;
+    }
+
+    private static string GenerateUniqueName()
+    {
+        string newName;
+        do
+        {
+            newName = $"{RandomLetter()}{RandomLetter()}{RandomDigit()}{RandomDigit()}{RandomDigit()}";
+        } while (!usedNames.Add(newName));
+
+        return newName;
+    }
+
+    private static char RandomLetter() => (char)('A' + random.Next(26));
+    private static char RandomDigit() => (char)('0' + random.Next(10));
+
+    public override int GetHashCode() => Name.GetHashCode();
+    public override bool Equals(object? obj) => obj is Robot r && r.Name == Name;
+}
+
+```
