@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regex",
+                "query": "group",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -263,7 +263,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af4224593cdacd48",
+  "active": "6e691844ae04bfb4",
   "lastOpenFiles": [
     "C#/Exercizm/文字.md",
     "C#/Exercizm/LinQ.md",
