@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Exercizm/LinQ.md",
+                "file": "C#/Exercizm/文字.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LinQ"
+              "title": "文字"
             }
           },
           {
@@ -264,8 +264,8 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
-    "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/LinQ.md",
+    "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/正規表現.md",
     "C#/Exercizm/HashCode&Equals.md",
     "C#/Exercizm/クラス.md",
