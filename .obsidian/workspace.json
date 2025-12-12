@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "C#/Exercizm/Stack.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -264,8 +264,9 @@
   },
   "active": "af4224593cdacd48",
   "lastOpenFiles": [
-    "C#/Exercizm/正規表現.md",
+    "C#/Exercizm/クラス.md",
     "C#/Exercizm/Stack.md",
+    "C#/Exercizm/正規表現.md",
     "C#/Exercizm/文字.md",
     "C#/Exercizm/LinQ.md",
     "C#/Exercizm/HashCode&Equals.md",
@@ -281,7 +282,6 @@
     "C#/CSVファイル読み取り.md",
     "C#/Exercizm/初期化宣言.md",
     "C#/Exercizm/継承.md",
-    "C#/Exercizm/クラス.md",
     "C#/Exercizm/out・ref修飾子.md",
     "C#/Exercizm/enum・switch.md",
     "C#/Exercizm/DateTime.md",
