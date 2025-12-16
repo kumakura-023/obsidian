@@ -145,8 +145,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,7 +262,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af4224593cdacd48",
+  "active": "6b4989763f380dd7",
   "lastOpenFiles": [
     "C#/Exercizm/初期化宣言.md",
     "C#/Exercizm/クラス.md",
