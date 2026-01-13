@@ -1,0 +1,66 @@
+---
+created: 2025-12-04T15:18
+updated: 2025-12-04T15:18
+---
+# out/refとは
+
+```C#
+public bool GetTelemetryData(ref int serialNum,
+        out int batteryPercentage, out int distanceDrivenInMeters)
+    {
+        if(latestSerialNum > serialNum)
+        {
+            serialNum = latestSerialNum;
+            batteryPercentage = -1;
+            distanceDrivenInMeters = -1;
+            return false;
+        }
+        latestSerialNum = serialNum;
+        batteryPercentage = this.batteryPercentage;
+        distanceDrivenInMeters = this.distanceDrivenInMeters;
+        return true;
+     
+    }
+```
+
+GetTelemetryDataを呼び出すメソッド
+```C#
+    public string GetBatteryUsagePerMeter(int serialNum)
+    {
+        bool success = car.GetTelemetryData(
+            ref serialNum,
+            out int batteryPercentage,
+            out int distanceDrivenInMeters
+        );
+    
+        if (!success)
+            return "no data";
+	    //GetTelemetryDataで取得した変数を使って判定
+        if (distanceDrivenInMeters == 0)
+            return "no data"; // またはエラー扱い
+    
+        return $"usage-per-meter={(100-batteryPercentage) / distanceDrivenInMeters}";
+    }
+```
+
+~~out → outを持つクラスを呼び出すと、呼び出したメソッド内で***out修飾子*** を持つ変数を扱うことができる。~~
+
+~~ref → ***ref修飾子*** がついた引数を渡すと、渡した先のメソッド内でその値が使われた上で、計算された値がref修飾子がついた変数に格納され、呼び出したメソッド内でその値を使うことができる。~~
+
+## ◇ out の本質
+
+**「呼び出し元で必ず“初期化されていない変数”を、メソッド側で“必ず初期化して返す”」**
+
+ただし、
+- 呼び出し元の変数は**渡す前に初期化してなくてよい**
+- メソッドの中では **out 変数に必ず代入しないとコンパイルエラー**
+
+---
+
+## ◇ ref の本質
+
+**「呼び出し元の変数そのものを参照として渡す」**
+
+つまり：
+- 呼び出し元で**初期化済みの変数**を渡す必要がある（未初期化だとエラー）
+- メソッド内で書き換えると、呼び出し元の変数も**そのまま変わる**

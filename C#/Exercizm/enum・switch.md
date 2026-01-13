@@ -1,6 +1,6 @@
 ---
 created: 2025-12-02T13:16
-updated: 2025-12-02T16:01
+updated: 2025-12-10T16:53
 ---
 ### 演習問題回答
 ```C#
@@ -119,4 +119,52 @@ static class Permissions
     }
 }
 
+```
+
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+[Flags]
+public enum Allergen
+{
+    Eggs = 1,
+    Peanuts = 2,
+    Shellfish = 4,
+    Strawberries = 8,
+    Tomatoes = 16,
+    Chocolate = 32,
+    Pollen = 64,
+    Cats = 128
+}
+
+public class Allergies
+{
+
+    private readonly Allergen mask;
+    public Allergies(int _mask)
+    {
+        mask = (Allergen)_mask;
+    }
+
+    public bool IsAllergicTo(Allergen allergen)
+    {
+        return mask.HasFlag(allergen);
+    }
+
+    public Allergen[] List()
+    {
+        return 
+        Enum
+        .GetValues(typeof(Allergen))
+        .Cast<Allergen>()
+        .Where(al => IsAllergicTo(al))
+        .ToArray();
+        
+        //Enum.GetValues<Allergen>()
+               .Where(a => allergy.HasFlag(a))
+               .ToArray();
+    }
+}
 ```
